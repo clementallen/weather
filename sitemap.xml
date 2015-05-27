@@ -8,40 +8,40 @@
   <loc>http://weather.clementallen.com/</loc>
   <changefreq>weekly</changefreq>
 </url>
-<url>
-  <loc>http://clementallen.com/gliding/weather/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://clementallen.com/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://clementallen.com/blog/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://clementallen.com/gallery/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://clementallen.com/projects/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://clementallen.com/contact/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://clementallen.com/gliding/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://clementallen.com/gliding/glide/</loc>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://clementallen.com/gliding/silver/</loc>
-  <changefreq>weekly</changefreq>
-</url>
+  <url>
+    <loc>http://weather.clementallen.com/webcams/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://weather.clementallen.com/lgc/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://weather.clementallen.com/rasp/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://weather.clementallen.com/charts/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://weather.clementallen.com/synoptics/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://weather.clementallen.com/metars/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://weather.clementallen.com/visitorcentre</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://weather.clementallen.com/about/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://weather.clementallen.com/icao/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
