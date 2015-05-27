@@ -1,13 +1,14 @@
 <?php
 
-$url = $_SERVER['REQUEST_URI'];
-
-
-include_once ( '../assets/hitcounter/counter.php');
-include_once ( '../assets/hitcounter/display.php');
 include_once ( '../assets/weatherdata.php');
 
-addinfo($page);
+// Disables hitcounter when developing locally
+if ($_SERVER['HTTP_HOST'] != 'localhost') {
+    include_once ( '../assets/hitcounter/counter.php');
+    include_once ( '../assets/hitcounter/display.php');
+    $page = 'GW - Home';
+    addinfo($page);
+}
 
 ?>
 
@@ -22,7 +23,7 @@ addinfo($page);
     <meta name="description" content="Gliding, Soaring and Aviation Weather synoptics, charts, graphics, links and more.  Used by the London Gliding Club" />
     <meta name="author" content="Clement Allen" />
 
-    <title>Gliding, Soaring and Aviation Weather.</title>
+    <title>Gliding, Soaring and Aviation Weather</title>
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="../assets/weather.css" rel="stylesheet" type="text/css" />

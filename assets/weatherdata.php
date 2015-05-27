@@ -1,14 +1,7 @@
 <?php
 
-$host = $_SERVER['SERVER_NAME'];
-
-if($host == 'lgc.clementallen.com')
-{
-  $domainWarning = '<h4 class="alert alert-danger col-md-10 col-md-offset-1">Note:  The url you are viewing this site on is old!  Please update your bookmarks to <a href="http://weather.clementallen.com/">weather.clementallen.com</a></h4>';
-}
-else {
-  $domainWarning = null;
-}
+// Extremely messy way to highlight active page!  Will be streamlined shortly
+$url = $_SERVER['REQUEST_URI'];
 
 $webcamsActive = null;
 $lgcActive = null;
@@ -37,6 +30,8 @@ if ($url == '/webcams/') {
   $aboutActive = ' active';
 }
 
+
+// Synoptics header calculators
 date_default_timezone_set('Europe/London');
 
 $oneDay = Date('l', strtotime('+1 days'));
