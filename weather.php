@@ -15,12 +15,12 @@ if ($_SERVER['HTTP_HOST'] != 'localhost') {
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="refresh" content="300"> <!-- Refreshes page every 5 minutes to see latest info -->
+    <meta http-equiv="refresh" content="300"><!-- Refreshes page every 5 minutes to see latest info -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <meta name="description" content="Gliding, Soaring and Aviation Weather synoptics, charts, graphics, links and more.  Used by the London Gliding Club" />
+    <meta name="description" content="Gliding, Soaring and Aviation Weather synoptics, charts, graphics, links, metars and more.  Used by the London Gliding Club" />
     <meta name="author" content="Clement Allen" />
 
     <title>Gliding, Soaring and Aviation Weather</title>

@@ -14,20 +14,28 @@ $aboutActive = null;
 
 if ($url == '/webcams/') {
   $webcamsActive = ' active';
+  $title = 'Webcams';
 } elseif ($url == '/lgc/') {
   $lgcActive = ' active';
+  $title = 'LGC';
 } elseif ($url == '/rasp/') {
   $raspActive = ' active';
+  $title = 'Rasp';
 } elseif ($url == '/charts/') {
   $chartsActive = ' active';
+  $title = 'Charts';
 } elseif ($url == '/synoptics/') {
   $synopticsActive = ' active';
+  $title = 'Synoptics';
 } elseif ($url == '/metars/') {
   $metarsActive = ' active';
+  $title = 'Metars';
 } elseif ($url == '/visitorcentre/') {
   $visitorCentreActive = ' active';
+  $title = 'Visitor Centre';
 } elseif ($url == '/about/') {
   $aboutActive = ' active';
+  $title = 'About';
 }
 
 
