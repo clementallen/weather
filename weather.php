@@ -25,8 +25,8 @@ if ($_SERVER['HTTP_HOST'] != 'localhost') {
 
     <title>Gliding, Soaring and Aviation Weather</title>
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/weather.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/weather.min.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -181,10 +181,10 @@ if ($_SERVER['HTTP_HOST'] != 'localhost') {
 
     </div><!-- /container -->
 
-    <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <script src="assets/bootstrap.min.js" type="text/javascript"></script>
-    <script src="assets/flash_detect.js" type="text/javascript"></script>
-    <script src="assets/weather.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="assets/js/flash_detect.min.js" type="text/javascript"></script>
+    <script src="assets/js/weather.min.js" type="text/javascript"></script>
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

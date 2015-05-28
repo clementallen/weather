@@ -25,15 +25,12 @@ if ($_SERVER['HTTP_HOST'] != 'localhost') {
 
     <title>Gliding, Soaring and Aviation Weather</title>
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../assets/weather.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/weather.min.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
-
-<!-- Using crawler bots to my advantage, stop sneaking around my code!! -->
-<a style="display: none;" href="http://stackoverflow.com/q/28878638/4270597"></a>
 
     <div class="container">
 
