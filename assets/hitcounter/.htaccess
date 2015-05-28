@@ -1,0 +1,11 @@
+AuthUserFile /var/pwww/.htpasswd
+
+AuthName "Weather site statistics"
+
+AuthType Basic
+
+<Files "view.php">
+
+  require valid-user
+
+</Files>
