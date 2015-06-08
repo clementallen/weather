@@ -1,11 +1,11 @@
 <?php
 
-include_once ( 'assets/weatherdata.php');
+include( 'assets/weatherdata.php');
 
 // Disables hitcounter when developing locally
 if ($_SERVER['HTTP_HOST'] != 'localhost') {
-    include_once ( 'assets/hitcounter/counter.php');
-    include_once ( 'assets/hitcounter/display.php');
+    include( 'assets/hitcounter/counter.php');
+    include( 'assets/hitcounter/display.php');
     $page = 'GW - Home';
     addinfo($page);
 }
@@ -180,6 +180,8 @@ if ($_SERVER['HTTP_HOST'] != 'localhost') {
         <?php } ?>
 
     </div><!-- /container -->
+
+    <p class="version-no"><?php echo 'v' . $siteVersion; ?></p>
 
     <script src="assets/js/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
