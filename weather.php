@@ -181,6 +181,8 @@ if ($_SERVER['HTTP_HOST'] != 'localhost') {
 
     </div><!-- /container -->
 
+    <p class="version-no"><?php echo 'v' . $siteVersion; ?></p>
+
     <script src="assets/js/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="assets/js/flash_detect.min.js" type="text/javascript"></script>

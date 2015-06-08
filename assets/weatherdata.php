@@ -1,5 +1,9 @@
 <?php
 
+// Website version number
+$siteVersion = '2.3.2';
+
+
 // Extremely messy way to highlight active page!  Will be streamlined shortly
 $url = $_SERVER['REQUEST_URI'];
 
