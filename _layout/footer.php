@@ -4,10 +4,10 @@
 
 <!-- /Page Content ======================================================= -->
 
-    <script src="//code.jquery.com/jquery-1.10.2.min.js" type="text/javascript"></script>
-    <script src="../assets/bootstrap.min.js" type="text/javascript"></script>
-    <script src="../assets/flash_detect.js" type="text/javascript"></script>
-    <script src="../assets/weather.js" type="text/javascript"></script>
+    <script src="../assets/js/jquery-2.1.4.min.js" type="text/javascript"></script>
+    <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../assets/js/flash_detect.min.js" type="text/javascript"></script>
+    <script src="../assets/js/weather.min.js" type="text/javascript"></script>
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

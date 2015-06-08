@@ -15,25 +15,22 @@ if ($_SERVER['HTTP_HOST'] != 'localhost') {
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="refresh" content="300"> <!-- Refreshes page every 5 minutes to see latest info -->
+    <meta http-equiv="refresh" content="300"><!-- Refreshes page every 5 minutes to see latest info -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../favicon.ico" />
-    <meta name="description" content="Gliding, Soaring and Aviation Weather synoptics, charts, graphics, links and more.  Used by the London Gliding Club" />
+    <meta name="description" content="Gliding, Soaring and Aviation Weather synoptics, charts, graphics, links, metars and more.  Used by the London Gliding Club" />
     <meta name="author" content="Clement Allen" />
 
-    <title>Gliding, Soaring and Aviation Weather</title>
+    <title>Gliding and Aviation Weather - <?php echo $title; ?></title>
 
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../assets/weather.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/weather.min.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
-
-<!-- Using crawler bots to my advantage, stop sneaking around my code!! -->
-<a style="display: none;" href="http://stackoverflow.com/q/28878638/4270597"></a>
 
     <div class="container">
 
