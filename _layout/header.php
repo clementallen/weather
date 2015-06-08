@@ -1,11 +1,11 @@
 <?php
 
-include_once ( '../assets/weatherdata.php');
+include( '../assets/weatherdata.php');
 
 // Disables hitcounter when developing locally
 if ($_SERVER['HTTP_HOST'] != 'localhost') {
-    include_once ( '../assets/hitcounter/counter.php');
-    include_once ( '../assets/hitcounter/display.php');
+    include( '../assets/hitcounter/counter.php');
+    include( '../assets/hitcounter/display.php');
     $page = 'GW - Home';
     addinfo($page);
 }

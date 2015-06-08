@@ -3,44 +3,42 @@
 // Extremely messy way to highlight active page!  Will be streamlined shortly
 $url = $_SERVER['REQUEST_URI'];
 
-$webcamsActive = null;
-$lgcActive = null;
-$raspActive = null;
-$chartsActive = null;
-$synopticsActive = null;
-$metarsActive = null;
-$visitorCentreActive = null;
-$aboutActive = null;
-
-if ($url == '/webcams/') {
+if (strpos($url,'webcams') !== false) {
   $webcamsActive = ' active';
   $title = 'Webcams';
-} elseif ($url == '/lgc/') {
+
+} elseif (strpos($url,'lgc') !== false) {
   $lgcActive = ' active';
   $title = 'LGC';
-} elseif ($url == '/rasp/') {
+
+} elseif (strpos($url,'rasp') !== false) {
   $raspActive = ' active';
   $title = 'Rasp';
-} elseif ($url == '/charts/') {
+
+} elseif (strpos($url,'charts') !== false) {
   $chartsActive = ' active';
   $title = 'Charts';
-} elseif ($url == '/synoptics/') {
+
+} elseif (strpos($url,'synoptics') !== false) {
   $synopticsActive = ' active';
   $title = 'Synoptics';
-} elseif ($url == '/metars/') {
+
+} elseif (strpos($url,'metars') !== false) {
   $metarsActive = ' active';
   $title = 'Metars';
-} elseif ($url == '/visitorcentre/') {
+
+} elseif (strpos($url,'visitorcentre') !== false) {
   $visitorCentreActive = ' active';
   $title = 'Visitor Centre';
-} elseif ($url == '/about/') {
+
+} elseif (strpos($url,'about') !== false) {
   $aboutActive = ' active';
   $title = 'About';
 }
 
 
 // Synoptics header calculators
-date_default_timezone_set('Europe/London');
+date_default_timezone_set('UTC');
 
 $oneDay = Date('l', strtotime('+1 days'));
 $twoDay = Date('l', strtotime('+2 days'));
