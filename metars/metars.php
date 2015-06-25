@@ -87,7 +87,7 @@ if (!empty($icaoFinal) && !empty($airportName)) {
 
             <div class="col-md-6">
                 <div class="panel panel-default">
-                    <p class="lead"><?php echo $airportName . ' METARS decoded'; ?></p><br /><br />
+                    <p class="lead"><?php echo $airportName . ' METARS decoded'; ?></p><br />
                     <?php
                         echo nl2br( file_get_contents('ftp://tgftp.nws.noaa.gov/data/observations/metar/decoded/' . $icaoFinal . '.TXT') );
                     ?>
