@@ -63,7 +63,7 @@ class MetarsTest extends PHPUnit_Framework_TestCase {
 
     public function testDataRetrieveReturnsCorrectCountry() {
 
-        $this->assertEquals(' United Kingdom', $this->Metars->dataRetrieve('EGGW', 'country') );
+        $this->assertEquals('United Kingdom', $this->Metars->dataRetrieve('EGGW', 'country') );
     }
 
     public function testDataRetrieveReturnsCorrectIata() {

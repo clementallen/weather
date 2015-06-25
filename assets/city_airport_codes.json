@@ -4,7 +4,7 @@
         "iata_code": "N/A",
         "city": "Turweston",
         "icao_code": "EGBT",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Turweston Aerodrome"
     },
     {
@@ -236,7 +236,7 @@
         "iata_code": "ABB",
         "city": "Abingdon",
         "icao_code": "EGUD",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Abingdon"
     },
     {
@@ -420,7 +420,7 @@
         "iata_code": "ABZ",
         "city": "Aberdeen",
         "icao_code": "EGPD",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Aberdeen Airport"
     },
     {
@@ -748,7 +748,7 @@
         "iata_code": "ADV",
         "city": "Andover",
         "icao_code": "EGWA",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Andover Airport"
     },
     {
@@ -764,7 +764,7 @@
         "iata_code": "ADX",
         "city": "St Andrews",
         "icao_code": "EGQL",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Leuchars"
     },
     {
@@ -3932,7 +3932,7 @@
         "iata_code": "AYH",
         "city": "Alconbury",
         "icao_code": "EGWZ",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Alconbury"
     },
     {
@@ -4452,7 +4452,7 @@
         "iata_code": "BBP",
         "city": "Bembridge",
         "icao_code": "EGHJ",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Bembridge Airport"
     },
     {
@@ -4476,7 +4476,7 @@
         "iata_code": "BBS",
         "city": "Camberley",
         "icao_code": "EGLK",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Blackbushe Airport"
     },
     {
@@ -4948,7 +4948,7 @@
         "iata_code": "BEB",
         "city": "Benbecula",
         "icao_code": "EGPL",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Benbecula Airport"
     },
     {
@@ -5068,7 +5068,7 @@
         "iata_code": "BEQ",
         "city": "Bury St. Edmunds",
         "icao_code": "EGXH",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Honington"
     },
     {
@@ -5124,7 +5124,7 @@
         "iata_code": "BEX",
         "city": "Benson",
         "icao_code": "EGUB",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Benson"
     },
     {
@@ -5268,7 +5268,7 @@
         "iata_code": "BFS",
         "city": "Belfast",
         "icao_code": "EGAA",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Belfast International Airport"
     },
     {
@@ -5540,7 +5540,7 @@
         "iata_code": "BHD",
         "city": "Belfast",
         "icao_code": "EGAC",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "George Best Belfast City Airport"
     },
     {
@@ -5700,7 +5700,7 @@
         "iata_code": "BHX",
         "city": "Birmingham",
         "icao_code": "EGBB",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Birmingham International Airport"
     },
     {
@@ -6380,7 +6380,7 @@
         "iata_code": "BLK",
         "city": "Blackpool",
         "icao_code": "EGNH",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Blackpool International Airport"
     },
     {
@@ -6956,7 +6956,7 @@
         "iata_code": "BOH",
         "city": "Bournemouth",
         "icao_code": "EGHH",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Bournemouth Airport (formerly Hurn Airport)"
     },
     {
@@ -6988,7 +6988,7 @@
         "iata_code": "BOL",
         "city": "Bally Kelly",
         "icao_code": "EGQB",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Bally Kelly Airport"
     },
     {
@@ -7268,7 +7268,7 @@
         "iata_code": "BQH",
         "city": "Biggin Hill / London",
         "icao_code": "EGKB",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "London Biggin Hill Airport"
     },
     {
@@ -7476,7 +7476,7 @@
         "iata_code": "BRR",
         "city": "Barra",
         "icao_code": "EGPR",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Barra Airport (Northbay Airport)"
     },
     {
@@ -7484,7 +7484,7 @@
         "iata_code": "BRS",
         "city": "Bristol",
         "icao_code": "EGGD",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Bristol International Airport"
     },
     {
@@ -8076,7 +8076,7 @@
         "iata_code": "BUT",
         "city": "Burtonwood",
         "icao_code": "EGOB",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Burtonwood Airport (former RAF Burtonwood)"
     },
     {
@@ -8332,7 +8332,7 @@
         "iata_code": "BWF",
         "city": "Barrow-in-Furness",
         "icao_code": "EGNL",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Barrow/Walney Island Airfield"
     },
     {
@@ -8884,7 +8884,7 @@
         "iata_code": "BZZ",
         "city": "Oxfordshire",
         "icao_code": "EGVN",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Brize Norton"
     },
     {
@@ -9076,7 +9076,7 @@
         "iata_code": "CAX",
         "city": "Carlisle",
         "icao_code": "EGNC",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Carlisle Airport"
     },
     {
@@ -9140,7 +9140,7 @@
         "iata_code": "CBG",
         "city": "Cambridge",
         "icao_code": "EGSC",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Cambridge Airport"
     },
     {
@@ -9716,7 +9716,7 @@
         "iata_code": "CEG",
         "city": "Chester",
         "icao_code": "EGNR",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Hawarden Airport (Chester Airport)"
     },
     {
@@ -11516,7 +11516,7 @@
         "iata_code": "COL",
         "city": "Coll Island",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Coll Island Airport"
     },
     {
@@ -11956,7 +11956,7 @@
         "iata_code": "CRN",
         "city": "Cromarty",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Cromarty Airport"
     },
     {
@@ -12060,7 +12060,7 @@
         "iata_code": "CSA",
         "city": "Colonsay",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Colonsay Airport"
     },
     {
@@ -12756,7 +12756,7 @@
         "iata_code": "CVT",
         "city": "Coventry",
         "icao_code": "EGBE",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Coventry Airport"
     },
     {
@@ -12812,7 +12812,7 @@
         "iata_code": "CWL",
         "city": "Cardiff",
         "icao_code": "EGFF",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Cardiff International Airport"
     },
     {
@@ -13884,7 +13884,7 @@
         "iata_code": "DGX",
         "city": "St Athan",
         "icao_code": "EGDX",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF St Athan"
     },
     {
@@ -14484,7 +14484,7 @@
         "iata_code": "DND",
         "city": "Dundee",
         "icao_code": "EGPN",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Dundee Airport"
     },
     {
@@ -14636,7 +14636,7 @@
         "iata_code": "DOC",
         "city": "Dornoch",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Dornoch Airport"
     },
     {
@@ -14988,7 +14988,7 @@
         "iata_code": "DSA",
         "city": "Doncaster",
         "icao_code": "EGCN",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Robin Hood Airport Doncaster Sheffield"
     },
     {
@@ -15788,7 +15788,7 @@
         "iata_code": "EDI",
         "city": "Edinburgh",
         "icao_code": "EGPH",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Edinburgh Airport"
     },
     {
@@ -16388,7 +16388,7 @@
         "iata_code": "EMA",
         "city": "Castle Donington",
         "icao_code": "EGNX",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "East Midlands Airport"
     },
     {
@@ -16572,7 +16572,7 @@
         "iata_code": "ENK",
         "city": "Enniskillen",
         "icao_code": "EGAB",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Enniskillen/St Angelo Airport"
     },
     {
@@ -16660,7 +16660,7 @@
         "iata_code": "EOI",
         "city": "Eday",
         "icao_code": "EGED",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Eday Airport"
     },
     {
@@ -16980,7 +16980,7 @@
         "iata_code": "ESH",
         "city": "Lancing",
         "icao_code": "EGKA",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Shoreham Airport"
     },
     {
@@ -17364,7 +17364,7 @@
         "iata_code": "EXT",
         "city": "Exeter",
         "icao_code": "EGTE",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Exeter International Airport"
     },
     {
@@ -17428,7 +17428,7 @@
         "iata_code": "FAB",
         "city": "Farnborough",
         "icao_code": "EGLF",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Farnborough Airport"
     },
     {
@@ -17796,7 +17796,7 @@
         "iata_code": "FEA",
         "city": "Fetlar",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Fetlar Airport"
     },
     {
@@ -17900,7 +17900,7 @@
         "iata_code": "FFD",
         "city": "Fairford",
         "icao_code": "EGVA",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Fairford"
     },
     {
@@ -18004,7 +18004,7 @@
         "iata_code": "FIE",
         "city": "Fair Isle",
         "icao_code": "EGEF",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Fair Isle Airport"
     },
     {
@@ -18188,7 +18188,7 @@
         "iata_code": "FLH",
         "city": "Flotta Isle",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Flotta Isle Airport"
     },
     {
@@ -18484,7 +18484,7 @@
         "iata_code": "FOA",
         "city": "Foula",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Foula Airport"
     },
     {
@@ -18868,7 +18868,7 @@
         "iata_code": "FSS",
         "city": "Forres",
         "icao_code": "EGQK",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Kinloss"
     },
     {
@@ -19060,7 +19060,7 @@
         "iata_code": "FWM",
         "city": "Fort William",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Fort William Heliport"
     },
     {
@@ -19132,7 +19132,7 @@
         "iata_code": "FZO",
         "city": "Filton",
         "icao_code": "EGTG",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Bristol Filton Airport"
     },
     {
@@ -19492,7 +19492,7 @@
         "iata_code": "GCI",
         "city": "Guernsey",
         "icao_code": "EGJB",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Guernsey Airport"
     },
     {
@@ -20284,7 +20284,7 @@
         "iata_code": "GLA",
         "city": "Glasgow",
         "icao_code": "EGPF",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Glasgow International Airport"
     },
     {
@@ -20380,7 +20380,7 @@
         "iata_code": "GLO",
         "city": "Gloucester / Cheltenham",
         "icao_code": "EGBJ",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Gloucester Airport"
     },
     {
@@ -21300,7 +21300,7 @@
         "iata_code": "GSY",
         "city": "Grimsby",
         "icao_code": "EGXB",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Binbrook"
     },
     {
@@ -22116,7 +22116,7 @@
         "iata_code": "HAW",
         "city": "Haverfordwest",
         "icao_code": "EGFE",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Haverfordwest Aerodrome"
     },
     {
@@ -23484,7 +23484,7 @@
         "iata_code": "HOY",
         "city": "Longhope",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Hoy Airport"
     },
     {
@@ -23676,7 +23676,7 @@
         "iata_code": "HRT",
         "city": "Harrogate",
         "icao_code": "EGXU",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Linton-On-Ouse Airport"
     },
     {
@@ -23828,7 +23828,7 @@
         "iata_code": "HTF",
         "city": "Hatfield",
         "icao_code": "EGTH",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Hatfield Aerodrome (closed 1990s)"
     },
     {
@@ -24100,7 +24100,7 @@
         "iata_code": "HUY",
         "city": "North Lincolnshire",
         "icao_code": "EGNJ",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Humberside Airport"
     },
     {
@@ -24260,7 +24260,7 @@
         "iata_code": "HYC",
         "city": "High Wycombe",
         "icao_code": "EGUH",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF"
     },
     {
@@ -25196,7 +25196,7 @@
         "iata_code": "ILY",
         "city": "Islay",
         "icao_code": "EGPI",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Port Ellen Airport (Glenegedale Airport)"
     },
     {
@@ -25484,7 +25484,7 @@
         "iata_code": "INV",
         "city": "Inverness",
         "icao_code": "EGPE",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Inverness Airport"
     },
     {
@@ -25540,7 +25540,7 @@
         "iata_code": "IOM",
         "city": "Ronaldsway",
         "icao_code": "EGNS",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Isle of Man Airport"
     },
     {
@@ -25836,7 +25836,7 @@
         "iata_code": "ISC",
         "city": "St Mary's",
         "icao_code": "EGHE",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "St Mary's Airport"
     },
     {
@@ -26836,7 +26836,7 @@
         "iata_code": "JER",
         "city": "Jersey",
         "icao_code": "EGJJ",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Jersey Airport"
     },
     {
@@ -30196,7 +30196,7 @@
         "iata_code": "KNF",
         "city": "Marham",
         "icao_code": "EGYM",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Marham"
     },
     {
@@ -30412,7 +30412,7 @@
         "iata_code": "KOI",
         "city": "Kirkwall",
         "icao_code": "EGPA",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Kirkwall Airport"
     },
     {
@@ -30780,7 +30780,7 @@
         "iata_code": "KRH",
         "city": "Redhill",
         "icao_code": "EGKR",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Redhill Airport"
     },
     {
@@ -31820,7 +31820,7 @@
         "iata_code": "KYN",
         "city": "Milton Keynes",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Milton Keynes Airport"
     },
     {
@@ -32156,7 +32156,7 @@
         "iata_code": "LBA",
         "city": "Leeds / Bradford",
         "icao_code": "EGNM",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Leeds Bradford International Airport"
     },
     {
@@ -32532,7 +32532,7 @@
         "iata_code": "LCY",
         "city": "London",
         "icao_code": "EGLC",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "London City Airport"
     },
     {
@@ -32820,7 +32820,7 @@
         "iata_code": "LEQ",
         "city": "Land's End",
         "icao_code": "EGHC",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Land's End Airport"
     },
     {
@@ -33124,7 +33124,7 @@
         "iata_code": "LGW",
         "city": "London",
         "icao_code": "EGKK",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "London Gatwick Airport"
     },
     {
@@ -33212,7 +33212,7 @@
         "iata_code": "LHR",
         "city": "London",
         "icao_code": "EGLL",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "London Heathrow Airport"
     },
     {
@@ -33604,7 +33604,7 @@
         "iata_code": "LKZ",
         "city": "Lakenheath",
         "icao_code": "EGUL",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Lakenheath"
     },
     {
@@ -33820,7 +33820,7 @@
         "iata_code": "LMO",
         "city": "Lossiemouth",
         "icao_code": "EGQS",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Lossiemouth"
     },
     {
@@ -34156,7 +34156,7 @@
         "iata_code": "LON",
         "city": "London",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "All Airports"
     },
     {
@@ -34300,7 +34300,7 @@
         "iata_code": "LPH",
         "city": "Lochgilphead",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Lochgilphead Heliport"
     },
     {
@@ -34332,7 +34332,7 @@
         "iata_code": "LPL",
         "city": "Liverpool",
         "icao_code": "EGGP",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Liverpool John Lennon Airport"
     },
     {
@@ -34636,7 +34636,7 @@
         "iata_code": "LSI",
         "city": "Shetland",
         "icao_code": "EGPB",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Sumburgh Airport"
     },
     {
@@ -34860,7 +34860,7 @@
         "iata_code": "LTN",
         "city": "Luton (near London)",
         "icao_code": "EGGW",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "London Luton Airport"
     },
     {
@@ -35268,7 +35268,7 @@
         "iata_code": "LWK",
         "city": "Lerwick",
         "icao_code": "EGET",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Tingwall Airport"
     },
     {
@@ -35436,7 +35436,7 @@
         "iata_code": "LYE",
         "city": "Wiltshire",
         "icao_code": "EGDL",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Lyneham"
     },
     {
@@ -35540,7 +35540,7 @@
         "iata_code": "LYX",
         "city": "Lydd",
         "icao_code": "EGMD",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "London Ashford International Airport (Ferryfield)"
     },
     {
@@ -35708,7 +35708,7 @@
         "iata_code": "MAN",
         "city": "Manchester",
         "icao_code": "EGCC",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Manchester Airport"
     },
     {
@@ -36548,7 +36548,7 @@
         "iata_code": "MHZ",
         "city": "Mildenhall",
         "icao_code": "",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Mildenhall"
     },
     {
@@ -37028,7 +37028,7 @@
         "iata_code": "MME",
         "city": "Teesside",
         "icao_code": "EGNV",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Durham Tees Valley Airport"
     },
     {
@@ -37628,7 +37628,7 @@
         "iata_code": "MSE",
         "city": "Manston",
         "icao_code": "EGMH",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Kent International Airport"
     },
     {
@@ -38508,7 +38508,7 @@
         "iata_code": "NCL",
         "city": "Newcastle upon Tyne",
         "icao_code": "EGNT",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Newcastle Airport"
     },
     {
@@ -38588,7 +38588,7 @@
         "iata_code": "NDY",
         "city": "Sanday",
         "icao_code": "EGES",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Sanday Airport"
     },
     {
@@ -39116,7 +39116,7 @@
         "iata_code": "NQY",
         "city": "Newquay",
         "icao_code": "EGDG",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Newquay Cornwall International Airport"
     },
     {
@@ -39412,7 +39412,7 @@
         "iata_code": "NWI",
         "city": "Norwich",
         "icao_code": "EGSH",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Norwich International Airport"
     },
     {
@@ -39668,7 +39668,7 @@
         "iata_code": "ODH",
         "city": "Odiham",
         "icao_code": "EGVO",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Odiham"
     },
     {
@@ -39900,7 +39900,7 @@
         "iata_code": "OKH",
         "city": "Oakham",
         "icao_code": "EGXJ",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Cottesmor"
     },
     {
@@ -40332,7 +40332,7 @@
         "iata_code": "ORM",
         "city": "Northampton / Peterborough",
         "icao_code": "EGBK",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Sywell Aerodrome"
     },
     {
@@ -41508,7 +41508,7 @@
         "iata_code": "PIK",
         "city": "Prestwick (near Glasgow)",
         "icao_code": "EGPK",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Glasgow Prestwick International Airport"
     },
     {
@@ -41740,7 +41740,7 @@
         "iata_code": "PLH",
         "city": "Plymouth",
         "icao_code": "EGHD",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Plymouth City Airport"
     },
     {
@@ -42636,7 +42636,7 @@
         "iata_code": "PSY",
         "city": "Stanley",
         "icao_code": "SFAL",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Port Stanley Airport"
     },
     {
@@ -43164,7 +43164,7 @@
         "iata_code": "QCY",
         "city": "Coningsby",
         "icao_code": "EGXC",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Coningsby"
     },
     {
@@ -43252,7 +43252,7 @@
         "iata_code": "QLA",
         "city": "Lasham",
         "icao_code": "EGHL",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Lasham Airfield"
     },
     {
@@ -43436,7 +43436,7 @@
         "iata_code": "QUG",
         "city": "Chichester",
         "icao_code": "EGHR",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Goodwood Airfield"
     },
     {
@@ -43740,7 +43740,7 @@
         "iata_code": "RCS",
         "city": "Kent",
         "icao_code": "EGTO",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Rochester Airport"
     },
     {
@@ -45512,7 +45512,7 @@
         "iata_code": "SCS",
         "city": "Sullom Voe",
         "icao_code": "EPGM",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Scatsta Airport"
     },
     {
@@ -45744,7 +45744,7 @@
         "iata_code": "SEN",
         "city": "Rochford",
         "icao_code": "EGMC",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "London Southend Airport"
     },
     {
@@ -46992,7 +46992,7 @@
         "iata_code": "SOU",
         "city": "Eastleigh (near Southampton)",
         "icao_code": "EGHI",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Southampton Airport"
     },
     {
@@ -47488,7 +47488,7 @@
         "iata_code": "STN",
         "city": "Essex (near London)",
         "icao_code": "EGSS",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "London Stansted Airport"
     },
     {
@@ -47864,7 +47864,7 @@
         "iata_code": "SWS",
         "city": "Swansea",
         "icao_code": "EGFH",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Swansea Airport"
     },
     {
@@ -48056,7 +48056,7 @@
         "iata_code": "SYY",
         "city": "Stornoway",
         "icao_code": "EGPO",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "Stornoway Airport"
     },
     {
@@ -50498,7 +50498,7 @@
         "iata_code": "UHF",
         "city": "Upper Heyford",
         "icao_code": "EGUA",
-        "country": " United Kingdom",
+        "country": "United Kingdom",
         "airport_name": "RAF Upper Heyford"
     },
     {
