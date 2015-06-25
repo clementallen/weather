@@ -1,7 +1,7 @@
 <?php
 
 // Website version number
-$siteVersion = '2.3.2';
+$siteVersion = '2.3.3';
 
 
 // Extremely messy way to highlight active page!  Will be streamlined shortly
