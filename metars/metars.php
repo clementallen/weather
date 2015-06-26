@@ -3,58 +3,31 @@
 $page = 'GW - About';
 
 include('../_layout/header.php');
+include('MetarsClass.php');
+
+// Instantiate Metars class
+$Metars = new Metars();
 
 // If ICAO submitted
 if(isset($_POST['metarsubmit'])) {
 
-    // ICAO validation
-    function icaoValidate($icao) {
-        if (empty($icao)) {
-            $error = '<p class="text text-danger">Please enter an ICAO</p>';
-
-        } elseif (strlen($icao) != 4) {
-            $error = '<p class="text text-danger">ICAO\'s can only be four digits</p>';
-
-        } elseif (is_numeric($icao)) {
-            $error = '<p class="text text-danger">ICAO\'s can\'t contain numbers!';
-
-        } else {
-            $error = null;
-        }
-
-        return $error;
-    }
-
     // Retrieve the ICAO from the form
     $icao = strtoupper($_POST['icao']);
-    $errIcao = icaoValidate($icao);
+
+    $errIcao = $Metars->icaoValidate($icao);
 
     // If there are no errors in the ICAO
     if (empty($errIcao)) {
 
-        // JSON airport info
-        $JSONdatas = file_get_contents('../assets/city_airport_codes.json');
-        $ARRAYdatas = json_decode($JSONdatas);
-
-        // Parse the JSON data to be usable
-        $json = array_filter($ARRAYdatas, function($item) use(&$icao) {
-            return isset($item->icao_code) && $item->icao_code == $icao;
-        });
-
-        // Find the info from the JSON data
-        function dataRetrieve($ARRAYdatas, $json, $type) {
-            $info = array_pop($json);
-            return $result = $info ? $info->$type : '';
-        }
-
         // Get the airport info
-        $airportName = dataRetrieve($ARRAYdatas, $json, 'airport_name');
-        $completeLocation = dataRetrieve($ARRAYdatas, $json, 'complete_location');
-        $city = dataRetrieve($ARRAYdatas, $json, 'city');
-        $country = dataRetrieve($ARRAYdatas, $json, 'country');
-        $iataCode = dataRetrieve($ARRAYdatas, $json, 'iata_code');
+        $airportName = $Metars->dataRetrieve($icao, 'airport_name');
+        $completeLocation = $Metars->dataRetrieve($icao, 'complete_location');
+        $city = $Metars->dataRetrieve($icao, 'city');
+        $country = $Metars->dataRetrieve($icao, 'country');
+        $iataCode = $Metars->dataRetrieve($icao, 'iata_code');
 
         $icaoFinal = $icao;
+
     } // End of if empty $errIcao
 
 } // End of if form submitted
@@ -114,7 +87,7 @@ if (!empty($icaoFinal) && !empty($airportName)) {
 
             <div class="col-md-6">
                 <div class="panel panel-default">
-                    <p class="lead"><?php echo $airportName . ' METARS decoded'; ?></p><br /><br />
+                    <p class="lead"><?php echo $airportName . ' METARS decoded'; ?></p><br />
                     <?php
                         echo nl2br( file_get_contents('ftp://tgftp.nws.noaa.gov/data/observations/metar/decoded/' . $icaoFinal . '.TXT') );
                     ?>
@@ -147,7 +120,7 @@ if (!empty($icaoFinal) && !empty($airportName)) {
         </div>
 <?php
 
-} // end of else
+} // end of elseif
 
 ?>
 

@@ -1,0 +1,11 @@
+{
+
+    "autoload" : {
+        "classmap" : [
+            "metars"
+        ]
+    },
+    "require": {
+        "phpunit/phpunit": "^4.7"
+    }
+}
