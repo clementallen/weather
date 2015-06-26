@@ -14,3 +14,8 @@ View a live version [here](http://weather.clementallen.com)
 - Objectified Metars code
 - Added PHPUnit tests to Metars code
 - Added travis ci config
+
+###### v2.3.4 - 26 June 2015 (WIP)
+- Added links page
+- Refactored weatherdata.php
+- Re-designed home page

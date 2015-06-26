@@ -3,7 +3,7 @@
 include( '../assets/weatherdata.php');
 
 // Disables hitcounter when developing locally
-if ($_SERVER['HTTP_HOST'] != 'localhost') {
+if ( !isLocalhost() ) {
     include( '../assets/hitcounter/counter.php');
     include( '../assets/hitcounter/display.php');
     $page = 'GW - Home';
@@ -46,6 +46,7 @@ if ($_SERVER['HTTP_HOST'] != 'localhost') {
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li id="webcam-link" class="navlink menu-clicker<?php echo $webcamsActive; ?>"><a href="../webcams">Webcams</a></li>
+                    <li id="links-link" class="navlink menu-clicker<?php echo $linksActive; ?>"><a href="../links/">Links</a></li>
 
                     <ul class="nav navbar-nav small-screen-menu">
                     <li id="lgcweather-link" class="navlink menu-clicker<?php echo $lgcActive; ?>"><a href="../lgc">LGC</a></li>
