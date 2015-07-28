@@ -68,9 +68,7 @@ if(isset($_POST['metarsubmit'])) {
             </div>
 
 <?php
-
 if (!empty($icaoFinal) && !empty($airportName)) {
-
 ?>
 
             <div class="col-md-12">
@@ -85,6 +83,10 @@ if (!empty($icaoFinal) && !empty($airportName)) {
             </div>
 
 
+            <?php
+                if ($Metars->urlExist('ftp://tgftp.nws.noaa.gov/data/observations/metar/decoded/' . $icaoFinal . '.TXT')) {
+            ?>
+
             <div class="col-md-6">
                 <div class="panel panel-default">
                     <p class="lead"><?php echo $airportName . ' METARS decoded'; ?></p><br />
@@ -93,6 +95,12 @@ if (!empty($icaoFinal) && !empty($airportName)) {
                     ?>
                 </div>
             </div>
+
+            <?php
+                }
+
+                if ($Metars->urlExist('ftp://tgftp.nws.noaa.gov/data/forecasts/taf/stations/' . $icaoFinal . '.TXT')) {
+            ?>
 
             <div class="col-md-6">
                 <div class="panel panel-default">
@@ -110,10 +118,12 @@ if (!empty($icaoFinal) && !empty($airportName)) {
                 </div>
             </div>
 
+            <?php
+                }
+            ?>
+
 <?php
-
 } elseif (empty($errIcao) && !empty($icao)) { // If the icao and airport name aren't found (i.e. if the info is not in the database)
-
 ?>
         <div class="col-md-6 col-md-offset-3">
             <p class="alert alert-danger"><?php echo 'Sorry, the ICAO ' . $icao . ' is not in our database'; ?></p>
@@ -124,7 +134,7 @@ if (!empty($icaoFinal) && !empty($airportName)) {
 
 ?>
 
-        </div>
+    </div>
 
 
 <?php
