@@ -1,7 +1,7 @@
 <?php
 
 // Website version number
-$siteVersion = '2.3.4';
+$siteVersion = '2.4.0';
 
 function isLocalhost() {
     if($_SERVER['HTTP_HOST'] == 'localhost') {

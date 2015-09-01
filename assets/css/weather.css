@@ -1,41 +1,41 @@
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: #f0f0f0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: url('../img/clouds.jpg') no-repeat center fixed;
 }
 
 .active-hover {
-  background-color: #e7e7e7;
-  color: #555;
+    background-color: #e7e7e7;
+    color: #555;
 }
 
 .flash-disabled-only{
-  display: none;
+    display: none;
 }
 
 .img-responsive{
-  margin: 0 auto;
-  margin-top: 5px;
-  margin-bottom: 15px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
 
 /* Added padding for about page image */
 #about-page .img-responsive.img-rounded {
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .lead{
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .navbar {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .navlink {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .navbar-brand.navlink {
@@ -43,56 +43,61 @@ body {
 }
 
 .no-padding-right{
-  padding: 10px 0px 10px 20px;
+    padding: 10px 0 10px 20px;
 }
 
 .panel {
-  padding: 10px 20px 10px 20px;
-  margin: 0 auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
+    padding: 10px 20px 10px 20px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .webcam{
-  margin: 10px 0px 5px 0px;
+    margin: 10px 0 5px 0;
 }
 
 .iframe-no-padding {
-  padding: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 .version-no {
-  bottom: 0;
-  float: right;
-  padding-right: 5px;
-  right: 0;
+    bottom: 0;
+    float: right;
+    padding-right: 5px;
+    right: 0;
 }
 
-.re-design {
-    text-align: center;
-    font-weight: bold;
+.welcome-link:hover {
+    text-decoration: none;
+}
+
+.welcome-link h2,
+.welcome-link p {
+    text-align:center;
+    margin-top: 10px;
 }
 
 @media only screen and (max-width: 680px) {
-  .small-screen-hide {
-    display: none;
-  }
+    .small-screen-hide {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 680px) {
-  .small-screen-show {
-    display: none;
-  }
+    .small-screen-show {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 991px) {
-  .small-screen-menu {
-    display: none;
-  }
+    .small-screen-menu {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 991px) {
-  .large-screen-menu {
-    display: none;
-  }
+    .large-screen-menu {
+        display: none;
+    }
 }

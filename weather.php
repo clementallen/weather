@@ -15,12 +15,11 @@ if ( !isLocalhost() ) {
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-    <meta http-equiv="refresh" content="300"><!-- Refreshes page every 5 minutes to see latest info -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <meta name="description" content="Gliding, Soaring and Aviation Weather synoptics, charts, graphics, links, metars and more.  Used by the London Gliding Club" />
+    <meta name="description" content="Gliding, Soaring and Aviation Weather webcams, synoptics, charts, graphics, links, metars and more.  Used by the London Gliding Club" />
     <meta name="author" content="Clement Allen" />
 
     <title>Gliding, Soaring and Aviation Weather</title>
@@ -81,11 +80,87 @@ if ( !isLocalhost() ) {
 
 
         <!-- content -->
-        <div class="alert alert-info re-design">
-            <p>We've re-designed the home page!</p>
+
+        <div class="col-md-4">
+            <a href="webcams/" class="welcome-link">
+                <div class="panel panel-default">
+                    <h2>Webcams</h2>
+                    <p>Webcams from gliding clubs around the country</p>
+                </div>
+            </a>
         </div>
 
+        <div class="col-md-4">
+            <a href="links/" class="welcome-link">
+                <div class="panel panel-default">
+                    <h2>Links</h2>
+                    <p>Useful links to external weather sites</p>
+                </div>
+            </a>
+        </div>
 
+        <div class="col-md-4">
+            <a href="LGC/" class="welcome-link">
+                <div class="panel panel-default">
+                    <h2>LGC</h2>
+                    <p>London Gliding Club's daily weather forecast</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="rasp/" class="welcome-link">
+                <div class="panel panel-default">
+                    <h2>RASP</h2>
+                    <p>RASP daily forecast diagrams</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="charts/" class="welcome-link">
+                <div class="panel panel-default">
+                    <h2>Charts</h2>
+                    <p>Rain, wind and cloud charts</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="synoptics/" class="welcome-link">
+                <div class="panel panel-default">
+                    <h2>Synoptics</h2>
+                    <p>Met Office Synoptic charts including rainfall</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="metars/" class="welcome-link">
+                <div class="panel panel-default">
+                    <h2>METARS</h2>
+                    <p>METARS and TAFS from around the country</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="visitorcentre/" class="welcome-link">
+                <div class="panel panel-default">
+                    <h2>Visitor Centre</h2>
+                    <p>Live weather from Dunstable Hill Visitor Centre</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4">
+            <a href="about/" class="welcome-link">
+                <div class="panel panel-default">
+                    <h2>About</h2>
+                    <p>Stalk me!</p>
+                </div>
+            </a>
+        </div>
 
         <!-- Only show if not developing locally -->
         <?php if ( !isLocalhost() ) { ?>
