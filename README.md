@@ -1,6 +1,6 @@
 ## Weather
 
-A compilation of weather resources in one website.
+An ever expanding compilation of weather resources in one website.
 
 View a live version [here](http://weather.clementallen.com)
 
@@ -19,3 +19,8 @@ View a live version [here](http://weather.clementallen.com)
 - Added links page
 - Refactored weatherdata.php
 - Re-designed home page
+
+###### v2.4.0 - 01 September 2015
+- Added home page content
+- Added extra webcams
+- Added background image
