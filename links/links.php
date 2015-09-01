@@ -42,7 +42,6 @@ include '../_layout/header.php';
 
                     <p class="lead">
 
-                        <a href="http://www.lfv.se/MetInfo.asp?TextFile=metar.eg.list.txt&TextFile=metar.ed.list.txt&TextFile=metar.benelux.list.txt&TextFile=metar.alps.list.txt&TextFile=metar.lf.list.txt&TextFile=metar.le.list.txt&TextFile=metar.lp.list.txt&TextFile=metar.li.list.txt&TextFile=metar.baltic.list.txt&TextFile=metar.others.list.txt&SubTitle=United%A0Kingdom&Subtitle=Germany&Subtitle=Benelux&Subtitle=Austria,%A0Switzerland&Subtitle=France&Subtitle=Spain&Subtitle=Portugal&Subtitle=Italy&Subtitle=Baltic&Subtitle=Other%A0Countries&T=METAR%A0Europe&Frequency=30" target="_blank">METARS</a><br />
                         <a href="http://weatherobs.com/" target="_blank">Weather Obs</a><br />
                         <a href="http://www.xcweather.co.uk/" target="_blank">XC Weather</a><br />
 

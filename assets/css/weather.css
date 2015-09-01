@@ -78,6 +78,10 @@ body {
     margin-top: 10px;
 }
 
+.welcome-link p {
+    color: #000000;
+}
+
 @media only screen and (max-width: 680px) {
     .small-screen-hide {
         display: none;
