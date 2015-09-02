@@ -13,6 +13,10 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
+    <loc>http://weather.clementallen.com/links/</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
     <loc>http://weather.clementallen.com/lgc/</loc>
     <changefreq>weekly</changefreq>
   </url>

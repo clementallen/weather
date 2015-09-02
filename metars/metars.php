@@ -13,12 +13,10 @@ if(isset($_POST['metarsubmit'])) {
 
     // Retrieve the ICAO from the form
     $icao = strtoupper($_POST['icao']);
-
     $errIcao = $Metars->icaoValidate($icao);
 
     // If there are no errors in the ICAO
     if (empty($errIcao)) {
-
         // Get the airport info
         $airportName = $Metars->dataRetrieve($icao, 'airport_name');
         $completeLocation = $Metars->dataRetrieve($icao, 'complete_location');
@@ -44,7 +42,7 @@ if(isset($_POST['metarsubmit'])) {
                           <fieldset>
 
                               <!-- Form Name -->
-                              <legend>Airport selection<a href="http://weather.clementallen.com/icao/" target="_blank" class="pull-right">ICAO list</a></legend>
+                              <legend>Airport selection<a href="../icao/" target="_blank" class="pull-right">ICAO list</a></legend>
 
                               <!-- Text input-->
                               <div class="form-group">

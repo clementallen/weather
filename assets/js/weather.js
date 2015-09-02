@@ -11,9 +11,9 @@ else {
 // Makes nav buttons darker on hover
 $('.nav li').hover(
     function(){
-        $(this).addClass('active-hover')
+        $(this).addClass('active-hover');
     },
     function(){
-        $(this).removeClass('active-hover')
+        $(this).removeClass('active-hover');
     }
-)
+);
