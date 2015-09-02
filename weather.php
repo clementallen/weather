@@ -43,30 +43,31 @@ if ( !isLocalhost() ) {
             </div>
 
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
+
+                <ul class="nav navbar-nav large-screen-menu">
                     <li id="webcam-link" class="navlink menu-clicker"><a href="webcams/">Webcams</a></li>
                     <li id="links-link" class="navlink menu-clicker"><a href="links/">Links</a></li>
-
-                    <ul class="nav navbar-nav small-screen-menu">
-                    <li id="lgcweather-link" class="navlink menu-clicker"><a href="lgc/">LGC</a></li>
+                    <li id="lgcweather-link" class="navlink menu-clicker"><a href="lgc/">LGC weather</a></li>
                     <li id="rasp-link" class="navlink menu-clicker"><a href="rasp/">RASP</a></li>
                     <li id="charts-link" class="navlink menu-clicker"><a href="charts/">Charts</a></li>
                     <li id="synoptics-link" class="navlink menu-clicker"><a href="synoptics/">Synoptics</a></li>
                     <li id="metars-link" class="navlink menu-clicker"><a href="metars/">METARS</a></li>
                     <li id="visitorcentre-link" class="navlink menu-clicker"><a href="visitorcentre/">Visitor Centre</a></li>
-                    </ul>
                 </ul>
 
-                <ul class="nav navbar-nav large-screen-menu">
-                    <li class="dropdown large-screen-menu">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Weather<span class="caret"></span></a>
+                <ul class="nav navbar-nav small-screen-menu">
+                    <li id="webcam-link" class="navlink menu-clicker"><a href="webcams/">Webcams</a></li>
+                    <li id="links-link" class="navlink menu-clicker"><a href="links/">Links</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
-                            <li id="lgcweather-link" class="navlink menu-clicker"><a href="lgc/">LGC weather</a></li>
-                            <li id="rasp-link" class="navlink menu-clicker"><a href="rasp/">RASP</a></li>
-                            <li id="charts-link" class="navlink menu-clicker"><a href="charts/">Charts</a></li>
-                            <li id="synoptics-link" class="navlink menu-clicker"><a href="synoptics/">Synoptics</a></li>
-                            <li id="metars-link" class="navlink menu-clicker"><a href="metars/">METARS</a></li>
-                            <li id="visitorcentre-link" class="navlink menu-clicker"><a href="visitorcentre/">Visitor Centre</a></li>
+                                <li id="lgcweather-link" class="navlink menu-clicker"><a href="lgc/">LGC weather</a></li>
+                                <li id="rasp-link" class="navlink menu-clicker"><a href="rasp/">RASP</a></li>
+                                <li id="charts-link" class="navlink menu-clicker"><a href="charts/">Charts</a></li>
+                                <li id="synoptics-link" class="navlink menu-clicker"><a href="synoptics/">Synoptics</a></li>
+                                <li id="metars-link" class="navlink menu-clicker"><a href="metars/">METARS</a></li>
+                                <li id="visitorcentre-link" class="navlink menu-clicker"><a href="visitorcentre/">Visitor Centre</a></li>
                             </ul>
                     </li>
                 </ul>
@@ -81,16 +82,16 @@ if ( !isLocalhost() ) {
 
         <!-- content -->
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-12">
             <a href="webcams/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Webcams</h2>
-                    <p>Webcams from gliding clubs around the country</p>
+                    <p>Webcams from gliding clubs country-wide</p>
                 </div>
             </a>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <a href="links/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Links</h2>
@@ -99,7 +100,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <a href="LGC/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>LGC</h2>
@@ -108,7 +109,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <a href="rasp/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>RASP</h2>
@@ -117,7 +118,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <a href="charts/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Charts</h2>
@@ -126,7 +127,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <a href="synoptics/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Synoptics</h2>
@@ -135,7 +136,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <a href="metars/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>METARS</h2>
@@ -144,7 +145,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <a href="visitorcentre/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Visitor Centre</h2>
@@ -153,7 +154,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
             <a href="about/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>About</h2>
