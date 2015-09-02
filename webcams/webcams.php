@@ -4,6 +4,18 @@ $page = 'GW - Webcams';
 
 include('../_layout/header.php');
 
+$minutePastTen = substr(date('i'), 1);
+
+if ($minutePastTen == 0) {
+    $husbosWebcamTime = 8;
+
+} else if ($minutePastTen == 1) {
+    $husbosWebcamTime = 9;
+
+} else {
+    $husbosWebcamTime = $minutePastTen - 2;
+}
+
 ?>
 
         <!-- Webcams ======================================================= -->
@@ -87,12 +99,12 @@ include('../_layout/header.php');
 
             <div class="col-md-6">
                 <p class="lead webcam">HusBos West</p>
-                <img src="http://webcam.theglidingcentre.co.uk/picam/1/picam01_1.jpg" class="img-responsive img-rounded" alt="HusBos West Webcam"/>
+                <img src="http://webcam.theglidingcentre.co.uk/picam/1/picam01_<?php echo $husbosWebcamTime ?>.jpg" class="img-responsive img-rounded" alt="HusBos West Webcam"/>
             </div>
 
             <div class="col-md-6">
                 <p class="lead webcam">HusBos South</p>
-                <img src="http://webcam.theglidingcentre.co.uk/picam/2/picam02_1.jpg" class="img-responsive img-rounded" alt="Rattlesdwon West Webcam"/>
+                <img src="http://webcam.theglidingcentre.co.uk/picam/2/picam02_<?php echo $husbosWebcamTime ?>.jpg" class="img-responsive img-rounded" alt="HusBos South Webcam"/>
             </div>
 
             <div class="col-md-6">
@@ -112,7 +124,7 @@ include('../_layout/header.php');
 
             <div class="col-md-6">
                 <p class="lead webcam">Rattlesden West</p>
-                <img src="http://ratair.stratus.org.uk/wc/cam1.jpg" class="img-responsive img-rounded" alt="Rattlesdwon West Webcam"/>
+                <img src="http://ratair.stratus.org.uk/wc/cam1.jpg" class="img-responsive img-rounded" alt="Rattlesden West Webcam"/>
             </div>
 
             <div class="col-md-6">
