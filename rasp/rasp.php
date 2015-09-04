@@ -1,6 +1,7 @@
 <?php
 
-$page = 'GW - Rasp';
+$pageCounter = 'GW - Rasp';
+$pageName = 'RASP';
 
 include('../_layout/header.php');
 

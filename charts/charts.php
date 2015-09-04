@@ -1,6 +1,7 @@
 <?php
 
-$page = 'GW - Charts';
+$pageCounter = 'GW - Charts';
+$pageName = 'Charts';
 
 include('../_layout/header.php');
 
@@ -34,7 +35,7 @@ include('../_layout/header.php');
             </div>
 
             <div class="col-md-12 js-only">
-                <iframe id="forecast_embed" type="text/html" frameborder="0" height="250" width="100%" src="http://forecast.io/embed/#lat=51.871498&lon=-0.547276&color=#00aaff&name=Dunstable&units=uk"></iframe> 
+                <iframe id="forecast_embed" type="text/html" frameborder="0" height="250" width="100%" src="http://forecast.io/embed/#lat=51.871498&lon=-0.547276&color=#00aaff&name=Dunstable&units=uk"></iframe>
             </div>
 
             <div class="col-md-12 js-only">
