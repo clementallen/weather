@@ -1,6 +1,7 @@
 <?php
 
-$page = 'GW - Webcams';
+$pageCounter = 'GW - Webcams';
+$pageName = 'Webcams';
 
 include('../_layout/header.php');
 

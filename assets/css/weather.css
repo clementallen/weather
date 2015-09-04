@@ -1,7 +1,7 @@
 body {
     padding-top: 20px;
     padding-bottom: 20px;
-    background: url('../img/clouds.jpg') no-repeat center fixed;
+    background-color: #f0f0f0;
 }
 
 .active-hover {
@@ -27,7 +27,7 @@ body {
 }
 
 .lead{
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .navbar {
@@ -40,9 +40,10 @@ body {
 
 .navbar-brand.navlink {
     border-right: 2px solid #e7e7e7;
+    margin-right: 10px;
 }
 
-.no-padding-right{
+.panel.panel-default.lgc-weather{
     padding: 10px 0 10px 20px;
 }
 
@@ -53,7 +54,7 @@ body {
     margin-bottom: 15px;
 }
 
-.webcam{
+.webcam {
     margin: 10px 0 5px 0;
 }
 
@@ -86,32 +87,48 @@ body {
     background-color: #f4f4f4;
 }
 
+.page-name {
+    color: #777;
+    padding: 14px 14px;
+    margin: 0;
+    font-size: 16px;
+}
+
+.small-screen-menu {
+    display: none;
+}
+
+.large-screen-menu {
+    display: block;
+}
+
 @media only screen and (max-width: 680px) {
     .small-screen-hide {
         display: none;
     }
-}
 
-@media only screen and (min-width: 680px) {
     .small-screen-show {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 991px) {
-    .large-screen-menu {
-        display: none;
-    }
-    .small-screen-menu {
         display: block;
     }
 }
 
-@media only screen and (min-width: 991px) {
-    .small-screen-menu {
+@media only screen and (min-width: 680px) {
+    .small-screen-hide {
+        display: block;
+    }
+
+    .small-screen-show {
         display: none;
     }
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
     .large-screen-menu {
+        display: none;
+    }
+
+    .small-screen-menu {
         display: block;
     }
 }
@@ -120,7 +137,18 @@ body {
     .large-screen-menu {
         display: block;
     }
+
     .small-screen-menu {
         display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .page-name {
+        display: none;
+    }
+
+    .navbar-brand.navlink {
+        margin-right: 0;
     }
 }

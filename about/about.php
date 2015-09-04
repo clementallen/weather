@@ -1,6 +1,7 @@
 <?php
 
-$page = 'GW - About';
+$pageCounter = 'GW - About';
+$pageName = 'About';
 
 include('../_layout/header.php');
 

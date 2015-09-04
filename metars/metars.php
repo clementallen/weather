@@ -1,6 +1,7 @@
 <?php
 
-$page = 'GW - About';
+$pageCounter = 'GW - Metars';
+$pageName = 'METARS';
 
 include('../_layout/header.php');
 include('MetarsClass.php');

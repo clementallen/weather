@@ -1,6 +1,7 @@
 <?php
 
-$page = 'GW - Synoptics';
+$pageCounter = 'GW - Synoptics';
+$pageName = 'Synoptics';
 
 include('../_layout/header.php');
 

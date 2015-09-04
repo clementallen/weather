@@ -1,6 +1,7 @@
 <?php
 
-$page = 'GW - links';
+$pageCounter = 'GW - Links';
+$pageName = 'Links';
 
 include '../_layout/header.php';
 
