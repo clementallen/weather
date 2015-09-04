@@ -13,8 +13,7 @@ $longitude = '-0.3239531';
 
 function bearingToCompass($degrees) {
     $compass =
-    array("N","NNE","NE","NEE","E","SEE","SE","SSE","S","SSW","SW","SWW","W"
-    ,"NWW","NW","NNW");
+    array("N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW");
 
     $compcount = round($degrees / 22.5);
     $compdir = $compass[$compcount];
