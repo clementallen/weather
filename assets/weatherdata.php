@@ -56,9 +56,9 @@ if (strpos($url,'webcams')) {
 // Synoptics header calculators
 date_default_timezone_set('UTC');
 
-$oneDay = Date('l', strtotime('+1 days'));
-$twoDay = Date('l', strtotime('+2 days'));
-$threeDay = Date('l', strtotime('+3 days'));
-$fourDay = Date('l', strtotime('+4 days'));
+$oneDayAhead = Date('l', strtotime('+1 days'));
+$twoDaysAhead = Date('l', strtotime('+2 days'));
+$threeDaysAhead = Date('l', strtotime('+3 days'));
+$fourDaysAhead = Date('l', strtotime('+4 days'));
 
 ?>
