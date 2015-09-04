@@ -1,2 +1,5 @@
 tests/reports
 vendor
+assets/temp-forecast.json
+
+forecast/config.php

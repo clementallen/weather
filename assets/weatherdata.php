@@ -35,6 +35,10 @@ if (strpos($url,'webcams')) {
     $chartsActive = $active;
     $title = 'Charts';
 
+} elseif (strpos($url,'forecast')) {
+    $forecastActive = $active;
+    $title = 'Forecast';
+
 } elseif (strpos($url,'synoptics')) {
     $synopticsActive = $active;
     $title = 'Synoptics';

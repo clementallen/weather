@@ -102,6 +102,14 @@ body {
     display: block;
 }
 
+.panel-forecast p {
+    margin-bottom: 0;
+}
+
+.panel-forecast p:first-child {
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 680px) {
     .small-screen-hide {
         display: none;

@@ -50,6 +50,7 @@ if ( !isLocalhost() ) {
                     <li id="lgcweather-link" class="navlink"><a href="lgc/">LGC weather</a></li>
                     <li id="rasp-link" class="navlink"><a href="rasp/">RASP</a></li>
                     <li id="charts-link" class="navlink"><a href="charts/">Charts</a></li>
+                    <li id="forecast-link" class="navlink"><a href="forecast/">Forecast</a></li>
                     <li id="synoptics-link" class="navlink"><a href="synoptics/">Synoptics</a></li>
                     <li id="metars-link" class="navlink"><a href="metars/">METARS</a></li>
                     <li id="visitorcentre-link" class="navlink"><a href="visitorcentre/">Visitor Centre</a></li>
@@ -65,6 +66,7 @@ if ( !isLocalhost() ) {
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
+                                <li id="forecast-link" class="navlink"><a href="forecast/">Forecast</a></li>
                                 <li id="synoptics-link" class="navlink"><a href="synoptics/">Synoptics</a></li>
                                 <li id="metars-link" class="navlink"><a href="metars/">METARS</a></li>
                                 <li id="visitorcentre-link" class="navlink"><a href="visitorcentre/">Visitor Centre</a></li>
@@ -82,7 +84,7 @@ if ( !isLocalhost() ) {
 
         <!-- content -->
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-6 col-sm-12">
             <a href="webcams/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Webcams</h2>
@@ -91,7 +93,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-6 col-sm-12">
             <a href="links/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Links</h2>
@@ -100,7 +102,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-6 col-sm-6">
             <a href="LGC/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>LGC Weather</h2>
@@ -109,7 +111,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-6 col-sm-6">
             <a href="rasp/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>RASP</h2>
@@ -123,6 +125,15 @@ if ( !isLocalhost() ) {
                 <div class="panel panel-default">
                     <h2>Charts</h2>
                     <p>Rain, wind and cloud charts</p>
+                </div>
+            </a>
+        </div>
+
+        <div class="col-md-4 col-sm-6">
+            <a href="forecast/" class="welcome-link">
+                <div class="panel panel-default">
+                    <h2>Forecast</h2>
+                    <p>Accurate forecasts using data from forecast.io</p>
                 </div>
             </a>
         </div>
