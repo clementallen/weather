@@ -40,7 +40,7 @@ include('../_layout/header.php');
 
             <div class="col-md-12 js-only">
                 <p class="lead">Windy TY</p>
-                <iframe class="img-rounded" src="https://embed.windyty.com/?surface,wind,now,54.368,-0.879,5," width="100%" height="60%" frameborder="0"></iframe>
+                <iframe src="https://embed.windyty.com/?surface,wind,now,54.750,-3.516,5,,menu,,ip" width="100%" height="500" frameborder="0"></iframe>
             </div>
 
         </div>
