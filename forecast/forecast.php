@@ -5,52 +5,50 @@ $pageName = 'Forecast';
 
 include('../_layout/header.php');
 include('../assets/forecastio.php');
+include('ForecastClass.php');
 include('config.php');
 
 $api_key = $config['api_key'];
 $latitude = '51.7491866';
 $longitude = '-0.3239531';
 
-function bearingToCompass($degrees) {
-    $compass =
-    array("N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW");
+$forecastIO = new ForecastIO($api_key);
+$Forecast = new Forecast();
 
-    $compcount = round($degrees / 22.5);
-    $compdir = $compass[$compcount];
-
-    return $compdir;
-}
-
-$forecast = new ForecastIO($api_key);
-
-$condition = $forecast->getCurrentConditions($latitude, $longitude);
+$condition = $forecastIO->getCurrentConditions($latitude, $longitude);
 
 $currentTemperature = round($condition->getTemperature(), 1) . '&deg;C';
 $currentApparentTemperature = round($condition->getApparentTemperature(), 1) . '&deg;C';
 
 $currentWindSpeed = round($condition->getWindSpeed()) . '&nbsp;km/h';
 $currentWindBearing = $condition->getWindBearing() . '&deg;';
-$currentCompassWindDirection = bearingToCompass($currentWindBearing);
+$currentCompassWindDirection = $Forecast->bearingToCompass($currentWindBearing);
 
 ?>
 
 
-<div class="col-md-4">
-    <div class="panel panel-default panel-forecast">
-        <p class="lead">Temperatures</p>
-        <p>Current: <?php echo $currentTemperature; ?></p>
-        <p>Apparent: <?php echo $currentApparentTemperature; ?></p>
-    </div>
-</div>
+            <div class="col-xs-12">
+                <div class="panel panel-default panel-forecast">
 
-<div class="col-md-4">
-    <div class="panel panel-default panel-forecast">
-        <p class="lead">Wind</p>
-        <p>Speed: <?php echo $currentWindSpeed; ?></p>
-        <p>Bearing: <?php echo $currentWindBearing; ?></p>
-        <p>Compass Direction: <?php echo $currentCompassWindDirection; ?></p>
-    </div>
-</div>
+                    <h1><a href="http://forecast.io">forecast.io</a> weather forecast</h1>
+
+                    <div class="col-md-4">
+                        <p class="lead">Temperature: <span><?php echo $currentTemperature;?></span></p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <p class="lead">Wind Speed: <span><?php echo $currentWindSpeed; ?></span></p>
+                        <p class="lead">Wind Bearing: <span><?php echo $currentWindBearing; ?></span></p>
+                        <p class="lead">Wind Compass Direction: <span><?php echo $currentCompassWindDirection; ?></span></p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <p class="lead">Wind Compass Direction: <span><?php echo $currentCompassWindDirection; ?></span></p>
+                    </div>
+
+                </div>
+            </div>
+
 
 <?php
 
