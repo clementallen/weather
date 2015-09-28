@@ -101,7 +101,7 @@ if ( !isLocalhost() ) {
         </div>
 
         <div class="col-md-4 col-sm-6">
-            <a href="LGC/" class="welcome-link">
+            <a href="lgc/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>LGC Weather</h2>
                     <p>London Gliding Club's daily weather forecast</p>
