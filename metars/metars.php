@@ -110,13 +110,6 @@ if (!empty($icaoFinal) && !empty($airportName)) {
                 </div>
             </div>
 
-            <div class="col-md-12">
-                <div class="panel panel-default iframe-padding">
-                    <p class="lead"><?php echo $airportName . ' TAFS decoded'; ?></p>
-                    <iframe frameBorder="0" width="100%" height="400px" src="http://aviationweather.gov/adds/tafs?station_ids=<?php echo $icaoFinal; ?>&std_trans=translated&submit_taf=Get+TAFs">';
-                </div>
-            </div>
-
             <?php
                 }
             ?>

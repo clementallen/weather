@@ -1,3 +1,5 @@
+$('a[href="' + this.location.pathname + '"]').parent().addClass('active');
+
 // Shows or hides classes depending on flash being installed
 if(FlashDetect.installed){
     $(".flash-disabled-only").hide();
