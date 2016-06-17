@@ -1,10 +1,6 @@
 <?php
-
-$pageCounter = 'GW - Visitor Centre';
 $pageName = 'Visitor&nbsp;Centre';
-
 include('../_layout/header.php');
-
 ?>
 
         <!-- Visitor Centre ======================================================= -->
@@ -22,7 +18,5 @@ include('../_layout/header.php');
         </div>
 
 <?php
-
 include('../_layout/footer.php');
-
 ?>

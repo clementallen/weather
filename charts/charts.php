@@ -1,10 +1,6 @@
 <?php
-
-$pageCounter = 'GW - Charts';
 $pageName = 'Charts';
-
 include('../_layout/header.php');
-
 ?>
 
         <!-- Charts ======================================================= -->

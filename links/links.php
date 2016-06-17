@@ -1,10 +1,6 @@
 <?php
-
-$pageCounter = 'GW - Links';
 $pageName = 'Links';
-
 include '../_layout/header.php';
-
 ?>
 
         <!-- Links page ======================================================= -->
@@ -93,9 +89,6 @@ include '../_layout/header.php';
 
         </div>
 
-
 <?php
-
 include '../_layout/footer.php';
-
 ?>

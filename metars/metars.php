@@ -1,36 +1,26 @@
 <?php
-
-$pageCounter = 'GW - Metars';
 $pageName = 'METARS';
 
 include('../_layout/header.php');
 include('MetarsClass.php');
 
-// Instantiate Metars class
 $Metars = new Metars();
 
-// If ICAO submitted
 if(isset($_POST['metarsubmit'])) {
 
-    // Retrieve the ICAO from the form
     $icao = strtoupper($_POST['icao']);
     $errIcao = $Metars->icaoValidate($icao);
 
-    // If there are no errors in the ICAO
     if (empty($errIcao)) {
-        // Get the airport info
         $airportName = $Metars->dataRetrieve($icao, 'airport_name');
         $completeLocation = $Metars->dataRetrieve($icao, 'complete_location');
         $city = $Metars->dataRetrieve($icao, 'city');
         $country = $Metars->dataRetrieve($icao, 'country');
         $iataCode = $Metars->dataRetrieve($icao, 'iata_code');
-
         $icaoFinal = $icao;
+    }
 
-    } // End of if empty $errIcao
-
-} // End of if form submitted
-
+}
 ?>
 
         <!-- METARS AND TAFS ======================================================= -->
@@ -42,10 +32,8 @@ if(isset($_POST['metarsubmit'])) {
                       <form method="post" class="form-horizontal">
                           <fieldset>
 
-                              <!-- Form Name -->
                               <legend>Airport selection<a href="../icao/" target="_blank" class="pull-right">ICAO list</a></legend>
 
-                              <!-- Text input-->
                               <div class="form-group">
                                   <div class="col-md-6">
                                     <p>Airport ICAO</p>
@@ -54,7 +42,6 @@ if(isset($_POST['metarsubmit'])) {
                                   </div>
                               </div>
 
-                              <!-- Button -->
                               <div class="form-group">
                                   <div class="col-md-4">
                                       <button id="metarsubmit" name="metarsubmit" class="btn btn-primary">Submit</button>
@@ -80,7 +67,6 @@ if (!empty($icaoFinal) && !empty($airportName)) {
                     <p><strong>Complete location: </strong> <?php echo $completeLocation; ?></p>
                 </div>
             </div>
-
 
             <?php
                 if ($Metars->urlExist('ftp://tgftp.nws.noaa.gov/data/observations/metar/decoded/' . $icaoFinal . '.TXT')) {
@@ -121,16 +107,11 @@ if (!empty($icaoFinal) && !empty($airportName)) {
             <p class="alert alert-danger"><?php echo 'Sorry, the ICAO ' . $icao . ' is not in our database'; ?></p>
         </div>
 <?php
-
-} // end of elseif
-
+}
 ?>
 
     </div>
 
-
 <?php
-
 include('../_layout/footer.php');
-
 ?>

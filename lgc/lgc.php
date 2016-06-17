@@ -1,10 +1,6 @@
 <?php
-
-$pageCounter = 'GW - LGC';
 $pageName = 'LGC&nbsp;Weather';
-
 include('../_layout/header.php');
-
 ?>
 
         <!-- LGC Weather forecast ======================================================= -->
@@ -21,7 +17,5 @@ include('../_layout/header.php');
         </div>
 
 <?php
-
 include('../_layout/footer.php');
-
 ?>

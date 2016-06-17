@@ -1,10 +1,6 @@
 <?php
-
-$pageCounter = 'GW - Rasp';
 $pageName = 'RASP';
-
 include('../_layout/header.php');
-
 ?>
 
         <!-- RASP ======================================================= -->
@@ -55,7 +51,5 @@ include('../_layout/header.php');
         </div>
 
 <?php
-
 include('../_layout/footer.php');
-
 ?>

@@ -1,8 +1,5 @@
 <?php
-
-$pageCounter = 'GW - Webcams';
 $pageName = 'Webcams';
-
 include('../_layout/header.php');
 
 $minutePastTen = substr(date('i'), 1);
@@ -46,7 +43,6 @@ if ($minutePastTen == 0) {
                 <p class="lead webcam">Parham West</p>
                 <img height="720" width="1280" src="http://jptsupport.net/webc/west.jpg" class="img-responsive img-rounded" alt="Parham West Webcam"/>
             </div>
-
 
             <div class="col-md-6">
                 <p class="lead webcam">Cambridge SSW</p>
@@ -141,7 +137,5 @@ if ($minutePastTen == 0) {
         </div>
 
 <?php
-
 include('../_layout/footer.php');
-
 ?>
