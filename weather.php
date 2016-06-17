@@ -2,14 +2,6 @@
 
 include( 'assets/weatherdata.php');
 
-// Disables hitcounter when developing locally
-if ( !isLocalhost() ) {
-    include( 'assets/hitcounter/counter.php');
-    include( 'assets/hitcounter/display.php');
-    $pageCounter = 'GW - Home';
-    addinfo($pageCounter);
-}
-
 ?>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -163,16 +155,7 @@ if ( !isLocalhost() ) {
             </a>
         </div>
 
-        <!-- Only show if not developing locally -->
-        <?php if ( !isLocalhost() ) { ?>
-            <p class="lead" style="text-align:center">
-                <?php echo 'This website has had ' . $totalhits . ' hits'; ?>
-            </p>
-        <?php } ?>
-
     </div><!-- /container -->
-
-    <p class="version-no"><?php echo 'v' . $siteVersion; ?></p>
 
     <script src="assets/js/jquery-2.1.4.min.js" type="text/javascript"></script>
     <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
