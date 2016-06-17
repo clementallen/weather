@@ -1,10 +1,6 @@
 <?php
-
-$pageCounter = 'GW - Synoptics';
 $pageName = 'Synoptics';
-
 include('../_layout/header.php');
-
 ?>
 
         <!-- Synoptics ======================================================= -->
@@ -79,7 +75,5 @@ include('../_layout/header.php');
         </div>
 
 <?php
-
 include('../_layout/footer.php');
-
 ?>

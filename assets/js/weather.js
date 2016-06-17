@@ -1,6 +1,6 @@
-$('a[href="' + this.location.pathname + '"]').parent().addClass('active');
+var strippedPath = this.location.pathname.replace(/\//g, '');
+$('a[href="' + strippedPath + '/"]').parent().addClass('active');
 
-// Shows or hides classes depending on flash being installed
 if(FlashDetect.installed){
     $(".flash-disabled-only").hide();
     $(".flash-enabled").show();
