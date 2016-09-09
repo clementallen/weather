@@ -1,2 +1,3 @@
 tests/reports
 vendor
+.DS_Store

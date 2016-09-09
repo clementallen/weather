@@ -12,7 +12,7 @@ include( '../assets/weatherdata.php');
     <meta name="description" content="Gliding, Soaring and Aviation Weather webcams, synoptics, charts, graphics, links, metars and more.  Used by the London Gliding Club" />
     <meta name="author" content="Clement Allen" />
 
-    <title>Gliding Weather - <?php echo $pageName; ?></title>
+    <title>Gliding Weather | <?php echo $pageName; ?></title>
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="../assets/css/weather.min.css" rel="stylesheet" type="text/css" />
