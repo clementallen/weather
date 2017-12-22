@@ -67,7 +67,7 @@ include '../_layout/header.php';
                     <h1>Gliding Weather</h1>
 
                     <p class="lead">
-                        <a href="http://rasp.inn.leedsmet.ac.uk/RASPtableGM/RASPtableGM.html" target="_blank">RASP Blipmap</a><br />
+                        <a href="http://rasp-uk.uk/" target="_blank">RASP Blipmap</a><br />
                         <a href="http://www.topmeteo.eu/weather/gliding!charts" target="_blank">Top Meteo</a><br />
                         <a href="http://www.lashamweather.co.uk/" target="_blank">Lasham Weather</a><br />
                         <a href="http://www.instructor.andrewroch.co.uk/weather.htm" target="_blank">LGC Weather</a><br />

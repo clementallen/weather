@@ -6,14 +6,11 @@ $minutePastTen = substr(date('i'), 1);
 
 if ($minutePastTen == 0) {
     $husbosWebcamTime = 8;
-
 } else if ($minutePastTen == 1) {
     $husbosWebcamTime = 9;
-
 } else {
     $husbosWebcamTime = $minutePastTen - 2;
 }
-
 ?>
 
         <!-- Webcams ======================================================= -->
@@ -36,32 +33,32 @@ if ($minutePastTen == 0) {
 
             <div class="col-md-6">
                 <p class="lead webcam">Parham North</p>
-                <img height="720" width="1280" src="http://jptsupport.net/webc/north.jpg" class="img-responsive img-rounded" alt="Parham North Webcam"/>
+                <img height="720" width="1280" src="http://jptuk.com/webc/north.jpg" class="img-responsive img-rounded" alt="Parham North Webcam"/>
             </div>
 
             <div class="col-md-6">
                 <p class="lead webcam">Parham West</p>
-                <img height="720" width="1280" src="http://jptsupport.net/webc/west.jpg" class="img-responsive img-rounded" alt="Parham West Webcam"/>
+                <img height="720" width="1280" src="http://jptuk.com/webc/west.jpg" class="img-responsive img-rounded" alt="Parham West Webcam"/>
             </div>
 
             <div class="col-md-6">
                 <p class="lead webcam">Cambridge SSW</p>
-                <img src="http://www.camgliding.uk/volatile/camsouth.jpg" class="img-responsive img-rounded" alt="Cambridge SSW Webcam"/>
+                <img src="http://members.camgliding.uk/volatile/camsouth.jpg" class="img-responsive img-rounded" alt="Cambridge SSW Webcam"/>
             </div>
 
             <div class="col-md-6">
                 <p class="lead webcam">Cambridge WSW</p>
-                <img src="http://www.camgliding.uk/volatile/camwest.jpg" class="img-responsive img-rounded" alt="Cambridge WSW Webcam"/>
+                <img src="http://members.camgliding.uk/volatile/camwest.jpg" class="img-responsive img-rounded" alt="Cambridge WSW Webcam"/>
             </div>
 
             <div class="col-md-6">
                 <p class="lead webcam">Nympsfield South West</p>
-                <img src="http://bggc.co.uk/met/webcam/DirectFromWebcam/LiveImage1.jpg" class="img-responsive img-rounded" alt="Nympsfield South West Webcam"/>
+                <img src="http://bggc.co.uk/bggc-images/webcam/LiveImage1.jpg" class="img-responsive img-rounded" alt="Nympsfield South West Webcam"/>
             </div>
 
             <div class="col-md-6">
                 <p class="lead webcam">Nympsfield South East</p>
-                <img src="http://bggc.co.uk/met/webcam/DirectFromWebcam/LiveImage2.jpg" class="img-responsive img-rounded" alt="Nympsfield South East Webcam"/>
+                <img src="http://bggc.co.uk/bggc-images/webcam/LiveImage2.jpg" class="img-responsive img-rounded" alt="Nympsfield South East Webcam"/>
             </div>
 
             <div class="col-md-4">
@@ -81,17 +78,17 @@ if ($minutePastTen == 0) {
 
             <div class="col-md-4">
                 <p class="lead webcam">Talgarth West</p>
-                <img src="http://webcam.bmgc.info:81/SnapshotJPEG?Resolution=640x420" class="img-responsive img-rounded" alt="Talgarth West Webcam"/>
+                <img src="http://217.41.66.17:81/SnapshotJPEG?Resolution=640x480" class="img-responsive img-rounded" alt="Talgarth West Webcam"/>
             </div>
 
             <div class="col-md-4">
                 <p class="lead webcam">Talgarth North</p>
-                <img src="http://webcam.bmgc.info:82/SnapshotJPEG?Resolution=640x420" class="img-responsive img-rounded" alt="Talgarth North Webcam"/>
+                <img src="http://217.41.66.17:82/SnapshotJPEG?Resolution=640x480" class="img-responsive img-rounded" alt="Talgarth North Webcam"/>
             </div>
 
             <div class="col-md-4">
                 <p class="lead webcam">Talgarth East</p>
-                <img src="http://webcam.bmgc.info:83/SnapshotJPEG?Resolution=640x420" class="img-responsive img-rounded" alt="Talgarth East Webcam"/>
+                <img src="http://www.blackmountainsgliding.co.uk/weather/webcamneweast-sm.jpg" class="img-responsive img-rounded" alt="Talgarth East Webcam"/>
             </div>
 
             <div class="col-md-6">

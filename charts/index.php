@@ -20,8 +20,7 @@ include('../_layout/header.php');
 
             <div class="col-md-4">
                 <p class="lead webcam">Live Rainfall</p>
-                <a target="_blank" href="http://www.meteoradar.co.uk/Content/image.ashx?type=animated-12&amp;time=">
-                <img src="http://www.meteoradar.co.uk/Content/image.ashx?type=animated-12&amp;time=" class="img-responsive img-rounded" alt="Live Rainfall"/></a>
+                <iframe src="http://maps.meteoradar.co.uk/GratisRadar/835/902/actueel?zoom=8" scrolling=no width="100%" height=300 frameborder=no></iframe>
             </div>
 
             <div class="col-md-4">
@@ -36,7 +35,7 @@ include('../_layout/header.php');
 
             <div class="col-md-12 js-only">
                 <p class="lead">Windy TY</p>
-                <iframe src="https://embed.windyty.com/?surface,wind,now,54.750,-3.516,5,,menu,,ip" width="100%" height="500" frameborder="0"></iframe>
+                <iframe width="100%" height="500" src="https://embed.windy.com/embed2.html?lat=51.750&lon=-0.333&zoom=5&level=surface&overlay=wind&menu=&message=&marker=&forecast=12&calendar=now&location=ip&type=map&actualGrid=&metricWind=kt&metricTemp=%C2%B0C" frameborder="0"></iframe>
             </div>
 
         </div>

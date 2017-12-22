@@ -39,7 +39,7 @@ include( '../assets/weatherdata.php');
                     <li id="webcam-link" class="navlink<"><a href="../webcams">Webcams</a></li>
                     <li id="links-link" class="navlink"><a href="../links">Links</a></li>
                     <li id="lgcweather-link" class="navlink"><a href="../lgc">LGC weather</a></li>
-                    <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li>
+                    <!-- <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li> -->
                     <li id="charts-link" class="navlink"><a href="../charts">Charts</a></li>
                     <li id="synoptics-link" class="navlink"><a href="../synoptics">Synoptics</a></li>
                     <li id="metars-link" class="navlink"><a href="../metars">METARS</a></li>
@@ -50,7 +50,7 @@ include( '../assets/weatherdata.php');
                     <li id="webcam-link" class="navlink"><a href="../webcams">Webcams</a></li>
                     <li id="links-link" class="navlink"><a href="../links">Links</a></li>
                     <li id="lgcweather-link" class="navlink"><a href="../lgc">LGC weather</a></li>
-                    <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li>
+                    <!-- <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li> -->
                     <li id="charts-link" class="navlink"><a href="../charts">Charts</a></li>
 
                     <li class="dropdown">
