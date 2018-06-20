@@ -32,16 +32,6 @@ if ($minutePastTen == 0) {
             </div>
 
             <div class="col-md-6">
-                <p class="lead webcam">Parham North</p>
-                <img height="720" width="1280" src="http://jptuk.com/webc/north.jpg" class="img-responsive img-rounded" alt="Parham North Webcam"/>
-            </div>
-
-            <div class="col-md-6">
-                <p class="lead webcam">Parham West</p>
-                <img height="720" width="1280" src="http://jptuk.com/webc/west.jpg" class="img-responsive img-rounded" alt="Parham West Webcam"/>
-            </div>
-
-            <div class="col-md-6">
                 <p class="lead webcam">Cambridge SSW</p>
                 <img src="http://members.camgliding.uk/volatile/camsouth.jpg" class="img-responsive img-rounded" alt="Cambridge SSW Webcam"/>
             </div>
@@ -49,6 +39,16 @@ if ($minutePastTen == 0) {
             <div class="col-md-6">
                 <p class="lead webcam">Cambridge WSW</p>
                 <img src="http://members.camgliding.uk/volatile/camwest.jpg" class="img-responsive img-rounded" alt="Cambridge WSW Webcam"/>
+            </div>
+
+            <div class="col-md-6">
+                <p class="lead webcam">Parham North</p>
+                <img height="720" width="1280" src="http://jptuk.com/webc/north.jpg" class="img-responsive img-rounded" alt="Parham North Webcam"/>
+            </div>
+
+            <div class="col-md-6">
+                <p class="lead webcam">Parham West</p>
+                <img height="720" width="1280" src="http://jptuk.com/webc/west.jpg" class="img-responsive img-rounded" alt="Parham West Webcam"/>
             </div>
 
             <div class="col-md-6">
