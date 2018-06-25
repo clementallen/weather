@@ -68,12 +68,12 @@ if ($minutePastTen == 0) {
 
             <div class="col-md-4">
                 <p class="lead webcam">Long Mynd North</p>
-                <img height="480" width="640" src="http://www.myndcam.com/LMSC.jpg" class="img-responsive img-rounded" alt="Long Mynd North Webcam"/>
+                <img height="480" width="640" src="http://midlandgliding.club/piwebcam/LMSC.jpg" class="img-responsive img-rounded" alt="Long Mynd North Webcam"/>
             </div>
 
             <div class="col-md-4">
                 <p class="lead webcam">Long Mynd West</p>
-                <img height="480" width="640" src="http://www.myndcam.com/west.jpg" class="img-responsive img-rounded" alt="Long Mynd West Webcam"/>
+                <img height="480" width="640" src="http://midlandgliding.club/piwebcam/MGC.jpg" class="img-responsive img-rounded" alt="Long Mynd West Webcam"/>
             </div>
 
             <div class="col-md-4">
@@ -83,7 +83,7 @@ if ($minutePastTen == 0) {
 
             <div class="col-md-4">
                 <p class="lead webcam">Talgarth North</p>
-                <img src="http://217.41.66.17:82/SnapshotJPEG?Resolution=640x480" class="img-responsive img-rounded" alt="Talgarth North Webcam"/>
+                <img src="http://217.41.66.17:81/SnapshotJPEG?Resolution=640x480" class="img-responsive img-rounded" alt="Talgarth North Webcam"/>
             </div>
 
             <div class="col-md-4">
@@ -103,17 +103,17 @@ if ($minutePastTen == 0) {
 
             <div class="col-md-6">
                 <p class="lead webcam">Wormingford South</p>
-                <img src="http://sloppydog.co.uk/esgc/Cam1.jpg" class="img-responsive img-rounded" alt="Wormingford South Webcam"/>
+                <img src="http://esgc.jfwhome.com/webcam/cam-wrm-south.php" class="img-responsive img-rounded" alt="Wormingford South Webcam"/>
             </div>
 
             <div class="col-md-6">
                 <p class="lead webcam">Wormingford West</p>
-                <img src="http://sloppydog.co.uk/esgc/Cam2.jpg" class="img-responsive img-rounded" alt="Wormingford West Webcam"/>
+                <img src="http://esgc.jfwhome.com/webcam/cam-wrm-west.php" class="img-responsive img-rounded" alt="Wormingford West Webcam"/>
             </div>
 
             <div class="col-md-6">
                 <p class="lead webcam">Portmoak North</p>
-                <img src="http://www.scottishglidingcentre.com/weather/webcam/arch01.jpg" class="img-responsive img-rounded" alt="Cotswold North Webcam"/>
+                <img src="https://assets2.webcam.io/w/gMEOwP/latest.jpg" class="img-responsive img-rounded" alt="Cotswold North Webcam"/>
             </div>
 
             <div class="col-md-6">
