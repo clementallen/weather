@@ -28,7 +28,7 @@ if ($minutePastTen == 0) {
 
             <div class="col-md-4">
                 <p class="lead webcam">Dunstable hill</p>
-                <img height="480" width="640" src="http://dunstablehpc.co.uk/images/weather/dunnycam.jpg" class="img-responsive img-rounded" alt="Dunstable hill Webcam"/>
+                <img height="480" width="640" src="http://dunstablehpc.com/images/weather/dunnycam.jpg" class="img-responsive img-rounded" alt="Dunstable hill Webcam"/>
             </div>
 
             <div class="col-md-6">
