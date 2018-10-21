@@ -2,7 +2,6 @@
 include( '../assets/weatherdata.php');
 ?>
 
-<!DOCTYPE html>
 <html>
 
 <head>

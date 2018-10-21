@@ -4,7 +4,6 @@ include( 'assets/weatherdata.php');
 
 ?>
 
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
