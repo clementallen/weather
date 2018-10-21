@@ -8,13 +8,13 @@ include('../_layout/header.php');
 
             <div class="col-md-6 col-md-offset-3">
                 <p class="lead webcam">Week Forecast</p>
-                <a target="_blank" href="https://www.meteoblue.com/meteogram-web?lon=-0.116667&lat=51.5&asl=10&tz=Europe_London&lang=en&look=CELSIUS,MILE_PER_HOUR">
+                <a target="_blank" rel="noopener" href="https://www.meteoblue.com/meteogram-web?lon=-0.116667&lat=51.5&asl=10&tz=Europe_London&lang=en&look=CELSIUS,MILE_PER_HOUR">
                 <img src="https://www.meteoblue.com/meteogram-web?lon=-0.116667&lat=51.5&asl=10&tz=Europe_London&lang=en&look=CELSIUS,MILE_PER_HOUR" class="img-responsive img-rounded" alt="7 day forecast"/></a>
             </div>
 
             <div class="col-md-4">
                 <p class="lead webcam">Austria IFR</p>
-                <a target="_blank" href="https://www.zamg.ac.at/dyn/pictures/sat.gif">
+                <a target="_blank" rel="noopener" href="https://www.zamg.ac.at/dyn/pictures/sat.gif">
                 <img src="https://www.zamg.ac.at/dyn/pictures/sat.gif" class="img-responsive img-rounded" alt="Austria IFR"/></a>
             </div>
 
@@ -25,7 +25,7 @@ include('../_layout/header.php');
 
             <div class="col-md-4">
                 <p class="lead webcam">Cloud Cover</p>
-                <a target="_blank" href="https://www.sat24.com/image.ashx?country=gb&type=zoom&format=640x480001001&rnd=610703">
+                <a target="_blank" rel="noopener" href="https://www.sat24.com/image.ashx?country=gb&type=zoom&format=640x480001001&rnd=610703">
                 <img src="https://www.sat24.com/image.ashx?country=gb&type=zoom&format=640x480001001&rnd=610703" class="img-responsive img-rounded" alt="Cloud Cover"/></a>
             </div>
 

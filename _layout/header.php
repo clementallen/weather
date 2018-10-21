@@ -14,7 +14,7 @@ include( '../assets/weatherdata.php');
 
     <title>Gliding Weather | <?php echo $pageName; ?></title>
 
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="../assets/css/weather.css" rel="stylesheet" type="text/css" />
 
 </head>
