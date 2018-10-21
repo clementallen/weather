@@ -4,7 +4,8 @@ include( 'assets/weatherdata.php');
 
 ?>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8" />
@@ -144,7 +145,7 @@ include( 'assets/weatherdata.php');
 
     </div><!-- /container -->
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script src="assets/js/flash_detect.min.js" type="text/javascript"></script>
     <script src="assets/js/weather.js" type="text/javascript"></script>
 
