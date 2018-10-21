@@ -17,7 +17,7 @@ include( 'assets/weatherdata.php');
     <title>Gliding Weather</title>
 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/weather.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/weather.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -63,10 +63,6 @@ include( 'assets/weatherdata.php');
                             </ul>
                     </li>
                 </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li id="about-link" class="navlink"><a href="about/">About</a></li>
-                </ul>
             </div><!--/.nav-collapse -->
         </div>
 
@@ -74,7 +70,7 @@ include( 'assets/weatherdata.php');
 
         <!-- content -->
 
-        <div class="col-md-4 col-sm-12">
+        <div class="col-md-4 col-sm-6">
             <a href="webcams/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Webcams</h2>
@@ -128,7 +124,7 @@ include( 'assets/weatherdata.php');
             </a>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-6 col-sm-6">
             <a href="metars/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>METARS</h2>
@@ -137,20 +133,11 @@ include( 'assets/weatherdata.php');
             </a>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-6 col-sm-6">
             <a href="visitorcentre/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Visitor Centre</h2>
-                    <p>Live weather from Dunstable Hill Visitor Centre</p>
-                </div>
-            </a>
-        </div>
-
-        <div class="col-md-4 col-sm-6">
-            <a href="about/" class="welcome-link">
-                <div class="panel panel-default">
-                    <h2>About</h2>
-                    <p>Stalk me!</p>
+                    <p>Live weather from Dunstable Visitor Centre</p>
                 </div>
             </a>
         </div>

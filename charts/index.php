@@ -14,8 +14,8 @@ include('../_layout/header.php');
 
             <div class="col-md-4">
                 <p class="lead webcam">Austria IFR</p>
-                <a target="_blank" href="http://www.zamg.ac.at/dyn/pictures/sat.gif">
-                <img src="http://www.zamg.ac.at/dyn/pictures/sat.gif" class="img-responsive img-rounded" alt="Austria IFR"/></a>
+                <a target="_blank" href="https://www.zamg.ac.at/dyn/pictures/sat.gif">
+                <img src="https://www.zamg.ac.at/dyn/pictures/sat.gif" class="img-responsive img-rounded" alt="Austria IFR"/></a>
             </div>
 
             <div class="col-md-4">
@@ -25,12 +25,12 @@ include('../_layout/header.php');
 
             <div class="col-md-4">
                 <p class="lead webcam">Cloud Cover</p>
-                <a target="_blank" href="http://www.sat24.com/image.ashx?country=gb&type=zoom&format=640x480001001&rnd=610703">
-                <img src="http://www.sat24.com/image.ashx?country=gb&type=zoom&format=640x480001001&rnd=610703" class="img-responsive img-rounded" alt="Cloud Cover"/></a>
+                <a target="_blank" href="https://www.sat24.com/image.ashx?country=gb&type=zoom&format=640x480001001&rnd=610703">
+                <img src="https://www.sat24.com/image.ashx?country=gb&type=zoom&format=640x480001001&rnd=610703" class="img-responsive img-rounded" alt="Cloud Cover"/></a>
             </div>
 
             <div class="col-md-12 js-only">
-                <iframe id="forecast_embed" type="text/html" frameborder="0" height="250" width="100%" src="http://forecast.io/embed/#lat=51.871498&lon=-0.547276&color=#00aaff&name=Dunstable&units=uk"></iframe>
+                <iframe id="forecast_embed" type="text/html" frameborder="0" height="250" width="100%" src="https://forecast.io/embed/#lat=51.871498&lon=-0.547276&color=#00aaff&name=Dunstable&units=uk"></iframe>
             </div>
 
             <div class="col-md-12 js-only">

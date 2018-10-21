@@ -5,47 +5,39 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>http://weather.clementallen.com/</loc>
+  <loc>https://weather.clementallen.com/</loc>
   <changefreq>weekly</changefreq>
 </url>
   <url>
-    <loc>http://weather.clementallen.com/webcams/</loc>
+    <loc>https://weather.clementallen.com/webcams/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://weather.clementallen.com/links/</loc>
+    <loc>https://weather.clementallen.com/links/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://weather.clementallen.com/lgc/</loc>
+    <loc>https://weather.clementallen.com/lgc/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://weather.clementallen.com/rasp/</loc>
+    <loc>https://weather.clementallen.com/rasp/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://weather.clementallen.com/charts/</loc>
+    <loc>https://weather.clementallen.com/charts/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://weather.clementallen.com/synoptics/</loc>
+    <loc>https://weather.clementallen.com/synoptics/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://weather.clementallen.com/metars/</loc>
+    <loc>https://weather.clementallen.com/metars/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>http://weather.clementallen.com/visitorcentre</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://weather.clementallen.com/about/</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>http://weather.clementallen.com/icao/</loc>
+    <loc>https://weather.clementallen.com/visitorcentre</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

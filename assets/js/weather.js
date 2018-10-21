@@ -8,7 +8,7 @@ if (parts[parts.length - 1].length === 0) {
     page = parts[parts.length - 1];
 }
 
-$('a[href*="' + page + '"]').parent().addClass('active');
+$(`a[href*="${page}"]`).parent().addClass('active');
 
 if(FlashDetect.installed){
     $(".flash-disabled-only").hide();

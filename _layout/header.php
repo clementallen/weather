@@ -15,7 +15,7 @@ include( '../assets/weatherdata.php');
     <title>Gliding Weather | <?php echo $pageName; ?></title>
 
     <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="../assets/css/weather.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/css/weather.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -39,7 +39,7 @@ include( '../assets/weatherdata.php');
                     <li id="webcam-link" class="navlink<"><a href="../webcams">Webcams</a></li>
                     <li id="links-link" class="navlink"><a href="../links">Links</a></li>
                     <li id="lgcweather-link" class="navlink"><a href="../lgc">LGC weather</a></li>
-                    <!-- <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li> -->
+                    <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li>
                     <li id="charts-link" class="navlink"><a href="../charts">Charts</a></li>
                     <li id="synoptics-link" class="navlink"><a href="../synoptics">Synoptics</a></li>
                     <li id="metars-link" class="navlink"><a href="../metars">METARS</a></li>
@@ -50,7 +50,7 @@ include( '../assets/weatherdata.php');
                     <li id="webcam-link" class="navlink"><a href="../webcams">Webcams</a></li>
                     <li id="links-link" class="navlink"><a href="../links">Links</a></li>
                     <li id="lgcweather-link" class="navlink"><a href="../lgc">LGC weather</a></li>
-                    <!-- <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li> -->
+                    <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li>
                     <li id="charts-link" class="navlink"><a href="../charts">Charts</a></li>
 
                     <li class="dropdown">
@@ -61,10 +61,6 @@ include( '../assets/weatherdata.php');
                                 <li id="visitorcentre-link" class="navlink"><a href="../visitorcentre">Visitor Centre</a></li>
                             </ul>
                     </li>
-                </ul>
-
-                <ul class="nav navbar-nav navbar-right">
-                    <li id="about-link" class="navlink"><a href="../about">About</a></li>
                 </ul>
             </div>
         </div>
