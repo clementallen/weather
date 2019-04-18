@@ -9,7 +9,7 @@ include( '../assets/weatherdata.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="../favicon.ico" />
-    <meta name="description" content="Gliding, Soaring and Aviation Weather webcams, synoptics, charts, graphics, links, metars and more.  Used by the London Gliding Club" />
+    <meta name="description" content="Gliding, Soaring and Aviation Weather webcams, synoptics, charts, graphics, links, metars and more." />
     <meta name="author" content="Clement Allen" />
 
     <title>Gliding Weather | <?php echo $pageName; ?></title>
@@ -39,7 +39,7 @@ include( '../assets/weatherdata.php');
                     <li id="webcam-link" class="navlink<"><a href="../webcams">Webcams</a></li>
                     <li id="links-link" class="navlink"><a href="../links">Links</a></li>
                     <li id="lgcweather-link" class="navlink"><a href="../lgc">LGC weather</a></li>
-                    <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li>
+                    <!-- <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li> -->
                     <li id="charts-link" class="navlink"><a href="../charts">Charts</a></li>
                     <li id="synoptics-link" class="navlink"><a href="../synoptics">Synoptics</a></li>
                     <li id="metars-link" class="navlink"><a href="../metars">METARS</a></li>
@@ -50,7 +50,7 @@ include( '../assets/weatherdata.php');
                     <li id="webcam-link" class="navlink"><a href="../webcams">Webcams</a></li>
                     <li id="links-link" class="navlink"><a href="../links">Links</a></li>
                     <li id="lgcweather-link" class="navlink"><a href="../lgc">LGC weather</a></li>
-                    <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li>
+                    <!-- <li id="rasp-link" class="navlink"><a href="../rasp">RASP</a></li> -->
                     <li id="charts-link" class="navlink"><a href="../charts">Charts</a></li>
 
                     <li class="dropdown">
