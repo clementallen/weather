@@ -65,9 +65,9 @@ include '../_layout/header.php';
                     <h1>Gliding Weather</h1>
 
                     <p class="lead">
-                        <a href="http://rasp-uk.uk/" target="_blank" rel="noopener">RASP Blipmap</a><br />
-                        <a href="http://www.topmeteo.eu/weather/gliding!charts" target="_blank" rel="noopener">Top Meteo</a><br />
-                        <a href="http://www.lashamweather.co.uk/" target="_blank" rel="noopener">Lasham Weather</a><br />
+                        <a href="https://rasp.stratus.org.uk/app/viewer/" target="_blank" rel="noopener">RASP Blipmap</a><br />
+                        <a href="https://europe.topmeteo.eu/en-gb/uks/start/" target="_blank" rel="noopener">Top Meteo</a><br />
+                        <a href="https://soarmet.com/   " target="_blank" rel="noopener">Soar Met (Lasham)</a><br />
                         <a href="http://www.instructor.andrewroch.co.uk/weather.htm" target="_blank" rel="noopener">LGC Weather</a><br />
                     </p>
 

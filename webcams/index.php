@@ -16,6 +16,16 @@ if ($minutePastTen == 0) {
         <!-- Webcams ======================================================= -->
         <div class="row" id="webcam-page">
 
+            <div class="col-md-6">
+                <p class="lead webcam">Lasham south side, pointing North</p>
+                <img src="https://soarmet.com/Camera/Image/LW-CAM4" class="img-responsive img-rounded" alt="Lasham south side, pointing North"/>
+            </div>
+
+            <div class="col-md-6">
+                <p class="lead webcam">Lasham clubhouse, pointing SSE</p>
+                <img src="https://soarmet.com/Camera/Image/LW-CAM3" class="img-responsive img-rounded" alt="Lasham clubhouse, pointing SSE"/>
+            </div>
+
             <div class="col-md-4">
                 <p class="lead webcam">London apron</p>
                 <img src="http://www.londonglidingclub.co.uk/images/webcam_apron.jpg" class="img-responsive img-rounded" alt="London apron Webcam"/>
