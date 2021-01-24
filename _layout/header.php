@@ -43,7 +43,7 @@ include( '../assets/weatherdata.php');
                     <li id="charts-link" class="navlink"><a href="../charts">Charts</a></li>
                     <li id="synoptics-link" class="navlink"><a href="../synoptics">Synoptics</a></li>
                     <li id="metars-link" class="navlink"><a href="../metars">METARS</a></li>
-                    <li id="visitorcentre-link" class="navlink"><a href="../visitorcentre">Visitor Centre</a></li>
+                    <!-- <li id="visitorcentre-link" class="navlink"><a href="../visitorcentre">Visitor Centre</a></li> -->
                 </ul>
 
                 <ul class="nav navbar-nav small-screen-menu">
@@ -58,7 +58,7 @@ include( '../assets/weatherdata.php');
                             <ul class="dropdown-menu" role="menu">
                                 <li id="synoptics-link" class="navlink"><a href="../synoptics">Synoptics</a></li>
                                 <li id="metars-link" class="navlink"><a href="../metars">METARS</a></li>
-                                <li id="visitorcentre-link" class="navlink"><a href="../visitorcentre">Visitor Centre</a></li>
+                                <!-- <li id="visitorcentre-link" class="navlink"><a href="../visitorcentre">Visitor Centre</a></li> -->
                             </ul>
                     </li>
                 </ul>
