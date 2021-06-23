@@ -6,37 +6,43 @@ include('../_layout/header.php');
         <!-- Synoptics ======================================================= -->
         <div class="row" id="synoptics-page">
 
-            <div class="col-md-4">
-                <p class="lead webcam">Fronts and Rain for Today</p>
+            <div class="col-md-6">
+                <p class="lead webcam">Fronts and Rain</p>
+                <a target="_blank" rel="noopener" href="https://www.weatherweb.net/tvweather/pres0.gif">
+                <img src="https://www.weatherweb.net/tvweather/pres0.gif" class="img-responsive img-rounded" alt="Fronts and Rain"/></a>
+            </div>
+
+            <div class="col-md-6">
+                <p class="lead webcam">Fronts and Rain</p>
                 <a target="_blank" rel="noopener" href="https://www.weatherweb.net/tvweather/pres1.gif">
-                <img src="https://www.weatherweb.net/tvweather/pres1.gif" class="img-responsive img-rounded" alt="Fronts and Rain Today"/></a>
+                <img src="https://www.weatherweb.net/tvweather/pres1.gif" class="img-responsive img-rounded" alt="Fronts and Rain"/></a>
             </div>
 
-            <div class="col-md-4">
-                <p class="lead webcam">Fronts and Rain for <?php echo $oneDayAhead; ?></p>
+            <div class="col-md-6">
+                <p class="lead webcam">Fronts and Rain</p>
                 <a target="_blank" rel="noopener" href="https://www.weatherweb.net/tvweather/pres2.gif">
-                <img src="https://www.weatherweb.net/tvweather/pres2.gif" class="img-responsive img-rounded" alt="Fronts and Rain +24"/></a>
+                <img src="https://www.weatherweb.net/tvweather/pres2.gif" class="img-responsive img-rounded" alt="Fronts and Rain"/></a>
             </div>
 
-            <div class="col-md-4">
-                <p class="lead webcam">Fronts and Rain for <?php echo $twoDaysAhead; ?></p>
+            <div class="col-md-6">
+            <p class="lead webcam">Fronts and Rain</p>
                 <a target="_blank" rel="noopener" href="https://www.weatherweb.net/tvweather/pres3.gif">
-                <img src="https://www.weatherweb.net/tvweather/pres3.gif" class="img-responsive img-rounded" alt="Fronts and Rain +48"/></a>
+                <img src="https://www.weatherweb.net/tvweather/pres3.gif" class="img-responsive img-rounded" alt="Fronts and Rain"/></a>
             </div>
 
-            <div class="col-md-4 col-md-offset-2">
-                <p class="lead webcam">Fronts and Rain for <?php echo $threeDaysAhead; ?></p>
+            <div class="col-md-6">
+                <p class="lead webcam">Fronts and Rain</p>
                 <a target="_blank" rel="noopener" href="https://www.weatherweb.net/tvweather/pres4.gif">
-                <img src="https://www.weatherweb.net/tvweather/pres4.gif" class="img-responsive img-rounded" alt="Fronts and Rain +72"/></a>
+                <img src="https://www.weatherweb.net/tvweather/pres4.gif" class="img-responsive img-rounded" alt="Fronts and Rain"/></a>
             </div>
 
-            <div class="col-md-4">
-                <p class="lead webcam">Fronts and Rain for <?php echo $fourDaysAhead; ?></p>
+            <div class="col-md-6">
+                <p class="lead webcam">Fronts and Rain</p>
                 <a target="_blank" rel="noopener" href="https://www.weatherweb.net/tvweather/pres5.gif">
-                <img src="https://www.weatherweb.net/tvweather/pres5.gif" class="img-responsive img-rounded" alt="Fronts and Rain +96"/></a>
+                <img src="https://www.weatherweb.net/tvweather/pres5.gif" class="img-responsive img-rounded" alt="Fronts and Rain"/></a>
             </div>
 
-            <div class="col-md-4">
+            <!-- <div class="col-md-4">
                 <p class="lead webcam">Synoptics Today</p>
                 <a target="_blank" rel="noopener" href="http://www2.wetter3.de/Fax/00_UKMet_Boden+00.gif">
                 <img src="http://www2.wetter3.de/Fax/00_UKMet_Boden+00.gif" class="img-responsive img-rounded" alt="Synoptics Today"/></a>
@@ -70,7 +76,7 @@ include('../_layout/header.php');
                 <p class="lead webcam">Synoptics for <?php echo $threeDaysAhead; ?></p>
                 <a target="_blank" rel="noopener" href="http://www2.wetter3.de/Fax/00_UKMet_Boden+72.gif">
                 <img src="http://www2.wetter3.de/Fax/00_UKMet_Boden+72.gif" class="img-responsive img-rounded" alt="Synoptics +72"/></a>
-            </div>
+            </div> -->
 
         </div>
 

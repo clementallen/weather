@@ -44,7 +44,7 @@ include( 'assets/weatherdata.php');
                     <li id="charts-link" class="navlink"><a href="charts/">Charts</a></li>
                     <li id="synoptics-link" class="navlink"><a href="synoptics/">Synoptics</a></li>
                     <li id="metars-link" class="navlink"><a href="metars/">METARS</a></li>
-                    <li id="visitorcentre-link" class="navlink"><a href="visitorcentre/">Visitor Centre</a></li>
+                    <!-- <li id="visitorcentre-link" class="navlink"><a href="visitorcentre/">Visitor Centre</a></li> -->
                 </ul>
 
                 <ul class="nav navbar-nav small-screen-menu">
@@ -59,7 +59,7 @@ include( 'assets/weatherdata.php');
                             <ul class="dropdown-menu" role="menu">
                                 <li id="synoptics-link" class="navlink"><a href="synoptics/">Synoptics</a></li>
                                 <li id="metars-link" class="navlink"><a href="metars/">METARS</a></li>
-                                <li id="visitorcentre-link" class="navlink"><a href="visitorcentre/">Visitor Centre</a></li>
+                                <!-- <li id="visitorcentre-link" class="navlink"><a href="visitorcentre/">Visitor Centre</a></li> -->
                             </ul>
                     </li>
                 </ul>
@@ -97,14 +97,14 @@ include( 'assets/weatherdata.php');
             </a>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <!-- <div class="col-md-4 col-sm-6">
             <a href="rasp/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>RASP</h2>
                     <p>RASP daily forecast diagrams</p>
                 </div>
             </a>
-        </div>
+        </div> -->
 
         <div class="col-md-4 col-sm-6">
             <a href="charts/" class="welcome-link">
@@ -124,7 +124,7 @@ include( 'assets/weatherdata.php');
             </a>
         </div>
 
-        <div class="col-md-6 col-sm-6">
+        <div class="col-md-4 col-sm-4">
             <a href="metars/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>METARS</h2>
@@ -133,14 +133,14 @@ include( 'assets/weatherdata.php');
             </a>
         </div>
 
-        <div class="col-md-6 col-sm-6">
+        <!-- <div class="col-md-6 col-sm-6">
             <a href="visitorcentre/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Visitor Centre</h2>
                     <p>Live weather from Dunstable Visitor Centre</p>
                 </div>
             </a>
-        </div>
+        </div> -->
 
     </div><!-- /container -->
 
