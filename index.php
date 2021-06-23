@@ -53,7 +53,7 @@
         </div>
 
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-6 col-sm-6">
             <a href="webcams/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Webcams</h2>
@@ -71,7 +71,7 @@
             </a>
         </div>
 
-        <div class="col-md-6 col-sm-6">
+        <div class="col-md-4 col-sm-6">
             <a href="lgc/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>LGC Weather</h2>
