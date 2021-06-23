@@ -1,9 +1,3 @@
-<?php
-
-include( 'assets/weatherdata.php');
-
-?>
-
 <html lang="en">
 
 <head>
@@ -11,7 +5,7 @@ include( 'assets/weatherdata.php');
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" />
-    <meta name="description" content="Gliding, Soaring and Aviation Weather webcams, synoptics, charts, graphics, links, metars and more" />
+    <meta name="description" content="Gliding, Soaring and Aviation Weather webcams, synoptics, charts, graphics, links and more" />
     <meta name="author" content="Clement Allen" />
 
     <title>Gliding Weather</title>
@@ -22,9 +16,7 @@ include( 'assets/weatherdata.php');
 </head>
 
 <body>
-
     <div class="container">
-
         <div class="navbar navbar-default" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span class="sr-only">Toggle navigation</span>
@@ -40,35 +32,26 @@ include( 'assets/weatherdata.php');
                     <li id="webcam-link" class="navlink"><a href="webcams/">Webcams</a></li>
                     <li id="links-link" class="navlink"><a href="links/">Links</a></li>
                     <li id="lgcweather-link" class="navlink"><a href="lgc/">LGC weather</a></li>
-                    <!-- <li id="rasp-link" class="navlink"><a href="rasp/">RASP</a></li> -->
                     <li id="charts-link" class="navlink"><a href="charts/">Charts</a></li>
                     <li id="synoptics-link" class="navlink"><a href="synoptics/">Synoptics</a></li>
-                    <li id="metars-link" class="navlink"><a href="metars/">METARS</a></li>
-                    <!-- <li id="visitorcentre-link" class="navlink"><a href="visitorcentre/">Visitor Centre</a></li> -->
                 </ul>
 
                 <ul class="nav navbar-nav small-screen-menu">
                     <li id="webcam-link" class="navlink"><a href="webcams/">Webcams</a></li>
                     <li id="links-link" class="navlink"><a href="links/">Links</a></li>
                     <li id="lgcweather-link" class="navlink"><a href="lgc/">LGC weather</a></li>
-                    <!-- <li id="rasp-link" class="navlink"><a href="rasp/">RASP</a></li> -->
                     <li id="charts-link" class="navlink"><a href="charts/">Charts</a></li>
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">More<span class="caret"></span></a>
                             <ul class="dropdown-menu" role="menu">
                                 <li id="synoptics-link" class="navlink"><a href="synoptics/">Synoptics</a></li>
-                                <li id="metars-link" class="navlink"><a href="metars/">METARS</a></li>
-                                <!-- <li id="visitorcentre-link" class="navlink"><a href="visitorcentre/">Visitor Centre</a></li> -->
                             </ul>
                     </li>
                 </ul>
-            </div><!--/.nav-collapse -->
+            </div>
         </div>
 
-
-
-        <!-- content -->
 
         <div class="col-md-4 col-sm-6">
             <a href="webcams/" class="welcome-link">
@@ -79,7 +62,7 @@ include( 'assets/weatherdata.php');
             </a>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-6 col-sm-6">
             <a href="links/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>Links</h2>
@@ -88,7 +71,7 @@ include( 'assets/weatherdata.php');
             </a>
         </div>
 
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-6 col-sm-6">
             <a href="lgc/" class="welcome-link">
                 <div class="panel panel-default">
                     <h2>LGC Weather</h2>
@@ -96,15 +79,6 @@ include( 'assets/weatherdata.php');
                 </div>
             </a>
         </div>
-
-        <!-- <div class="col-md-4 col-sm-6">
-            <a href="rasp/" class="welcome-link">
-                <div class="panel panel-default">
-                    <h2>RASP</h2>
-                    <p>RASP daily forecast diagrams</p>
-                </div>
-            </a>
-        </div> -->
 
         <div class="col-md-4 col-sm-6">
             <a href="charts/" class="welcome-link">
@@ -123,33 +97,13 @@ include( 'assets/weatherdata.php');
                 </div>
             </a>
         </div>
-
-        <div class="col-md-4 col-sm-4">
-            <a href="metars/" class="welcome-link">
-                <div class="panel panel-default">
-                    <h2>METARS</h2>
-                    <p>METARS and TAFS from around the country</p>
-                </div>
-            </a>
-        </div>
-
-        <!-- <div class="col-md-6 col-sm-6">
-            <a href="visitorcentre/" class="welcome-link">
-                <div class="panel panel-default">
-                    <h2>Visitor Centre</h2>
-                    <p>Live weather from Dunstable Visitor Centre</p>
-                </div>
-            </a>
-        </div> -->
-
-    </div><!-- /container -->
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="assets/js/flash_detect.min.js" type="text/javascript"></script>
     <script src="assets/js/weather.js" type="text/javascript"></script>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56060801-2"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -158,8 +112,5 @@ include( 'assets/weatherdata.php');
 
     gtag('config', 'UA-56060801-2');
     </script>
-
-
 </body>
-
 </html>
