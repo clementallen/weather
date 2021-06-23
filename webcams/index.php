@@ -2,15 +2,6 @@
 $pageName = 'Webcams';
 include('../_layout/header.php');
 
-$minutePastTen = substr(date('i'), 1);
-
-if ($minutePastTen == 0) {
-    $husbosWebcamTime = 8;
-} else if ($minutePastTen == 1) {
-    $husbosWebcamTime = 9;
-} else {
-    $husbosWebcamTime = $minutePastTen - 2;
-}
 ?>
 
         <!-- Webcams ======================================================= -->

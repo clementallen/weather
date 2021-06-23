@@ -9,10 +9,6 @@ body {
     color: #555;
 }
 
-.flash-disabled-only{
-    display: none;
-}
-
 .img-responsive{
     margin: 0 auto;
     margin-top: 5px;
