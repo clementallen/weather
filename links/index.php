@@ -65,7 +65,7 @@ include '../_layout/header.php';
                     <h1>Gliding Weather</h1>
 
                     <p class="lead">
-                        <a href="https://rasp.stratus.org.uk/app/viewer/" target="_blank" rel="noopener">RASP Blipmap</a><br />
+                        <a href="http://rasp.stratus.org.uk/index.php" target="_blank" rel="noopener">RASP Blipmap</a><br />
                         <a href="https://europe.topmeteo.eu/en-gb/uks/start/" target="_blank" rel="noopener">Top Meteo</a><br />
                         <a href="https://soarmet.com/   " target="_blank" rel="noopener">Soar Met (Lasham)</a><br />
                         <a href="http://www.instructor.andrewroch.co.uk/weather.htm" target="_blank" rel="noopener">LGC Weather</a><br />
@@ -76,7 +76,7 @@ include '../_layout/header.php';
                     <h1>Other Sites</h1>
 
                     <p class="lead">
-                        <a href="https://www.metcheck.com/UK/" target="_blank" rel="noopener">Met Check</a><br />
+                        <a href="https://www.metcheck.com/" target="_blank" rel="noopener">Met Check</a><br />
                         <a href="http://www.netweather.tv/" target="_blank" rel="noopener">Net Weather</a><br />
                         <a href="http://www.weatheronline.co.uk/cgi-bin/expertcharts?CONT=ukuk&MODELL=gfs&MODELLTYP=1&VAR=pslv&INFO=1" target="_blank" rel="noopener">Weather Online pressures</a><br />
                     </p>
