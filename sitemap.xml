@@ -21,23 +21,11 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://weather.clementallen.com/rasp/</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://weather.clementallen.com/charts/</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://weather.clementallen.com/synoptics/</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://weather.clementallen.com/metars/</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://weather.clementallen.com/visitorcentre</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
