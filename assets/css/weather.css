@@ -72,34 +72,6 @@ body {
     font-size: 16px;
 }
 
-.small-screen-menu {
-    display: none;
-}
-
-.large-screen-menu {
-    display: block;
-}
-
-@media only screen and (max-width: 991px) and (min-width: 768px) {
-    .large-screen-menu {
-        display: none;
-    }
-
-    .small-screen-menu {
-        display: block;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .large-screen-menu {
-        display: block;
-    }
-
-    .small-screen-menu {
-        display: none;
-    }
-}
-
 @media only screen and (min-width: 768px) {
     .page-name {
         display: none;
