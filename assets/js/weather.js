@@ -12,10 +12,10 @@ $(`a[href*="${page}"]`).parent().addClass('active');
 
 // Makes nav buttons darker on hover
 $('.nav li').hover(
-    function(){
+    function () {
         $(this).addClass('active-hover');
     },
-    function(){
+    function () {
         $(this).removeClass('active-hover');
-    }
+    },
 );
