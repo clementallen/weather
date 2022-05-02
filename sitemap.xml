@@ -17,10 +17,6 @@
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://weather.clementallen.com/lgc/</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
     <loc>https://weather.clementallen.com/charts/</loc>
     <changefreq>weekly</changefreq>
   </url>
