@@ -161,7 +161,6 @@
                 <div class="col-md-6">
                     <p class="lead webcam">Long Mynd West</p>
                     <img
-                        id="longmynd-west-cam"
                         height="480"
                         width="640"
                         src="https://www.midlandgliding.club/piwebcam/144.jpg"
@@ -282,23 +281,6 @@
             crossorigin="anonymous"
         ></script>
         <script src="../assets/js/weather.js" type="text/javascript"></script>
-
-        <script>
-            (function () {
-                var SRC = 'https://www.midlandgliding.club/piwebcam/westcam.html';
-                fetch(SRC, { cache: 'no-store' })
-                    .then(function (r) { return r.ok ? r.text() : Promise.reject(r.status); })
-                    .then(function (html) {
-                        var re = /https:\/\/www\.midlandgliding\.club\/piwebcam\/\d+\.jpg[^'"\s]*/g;
-                        var matches = html.match(re);
-                        if (!matches || !matches.length) return;
-                        document.getElementById('longmynd-west-cam').src = matches[matches.length - 1];
-                    })
-                    .catch(function (e) {
-                        console.warn('Long Mynd West dynamic fetch failed:', e);
-                    });
-            })();
-        </script>
 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56060801-2"></script>
